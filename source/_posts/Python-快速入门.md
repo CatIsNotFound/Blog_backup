@@ -19,7 +19,7 @@ thumbnail: https://www.boardinfinity.com/blog/content/images/2023/05/Class-and-S
   
   - Windows：
     {% btn regular::Python 官网下载::https://www.python.org/downloads/windows/::fa-brands fa-python %}
-    {% btn regular::Microsoft Store 下载【推荐】::https://apps.microsoft.com/detail/9nrwmjp3717k?hl=zh-cn&gl=CN ::fa-brands fa-microsoft %}
+    {% btn regular::Microsoft Store 下载【推荐】::https://apps.microsoft.com/search?query=Python&hl=zh-cn&gl=CN ::fa-brands fa-microsoft %}
   
   - Mac OS：
     {% btn regular::Python 官网下载::https://www.python.org/downloads/macos/::fa-brands fa-python %}
@@ -60,7 +60,9 @@ thumbnail: https://www.boardinfinity.com/blog/content/images/2023/05/Class-and-S
    ```
 
 3. 如何退出交互式 Python
+
     方法一：在交互式 Python 里输入 `quit()` 回车执行
+
     方法二：直接按下 <kbd>Ctrl</kbd> + <kbd>D</kbd> 退出（Windows 下需先按下 <kbd>Ctrl</kbd> + <kbd>Z</kbd> 再按下回车即可）
 
 ### 2. 如何编写 Python 脚本
@@ -89,7 +91,7 @@ thumbnail: https://www.boardinfinity.com/blog/content/images/2023/05/Class-and-S
 
 - 执行脚本
   
-  ```shell
+  ```bash
   python helloWorld.py 
   ```
 
@@ -128,7 +130,7 @@ thumbnail: https://www.boardinfinity.com/blog/content/images/2023/05/Class-and-S
 | \_abc     | <mark>$</mark>w8       |
 | user_name | app<mark>  </mark>name |
 
-   根据如上表格，可以确定：
+根据如上表格，可以确定：
 
 - 变量名不能直接以数字为头
 
@@ -137,6 +139,7 @@ thumbnail: https://www.boardinfinity.com/blog/content/images/2023/05/Class-and-S
 - 关键字不可直接作为变量名
 
 - 变量名可包含 `_` 特殊字符，但不可包含空格、`-`、`$`、`!`等特殊字符。
+
 3. 赋值并代入
     示例 1：定义变量并输出
    
@@ -339,8 +342,6 @@ graph LR
     B --->|不满足| E[结束];
 
 ```
-
-
 
 - **for** 循环
   
