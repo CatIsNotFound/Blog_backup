@@ -9,9 +9,8 @@ categories: 博客搭建
 excerpt: >-
   现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo
   博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。
-date: 2024-05-14 22:18:00
+date: 2024-05-27 10:18:00
 thumbnail: /images/0527/banner.jpg
-sticky: 998
 ---
 
 # 前言
@@ -54,7 +53,7 @@ WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，�
 
 请直接点击下面链接，选择 Arm64 架构的安装包下载并安装。
 
-{% btn center large::点击这里下载软件::https://github.com/PangBaiWork/WeBlog/releases ::fas fa-link %}
+{% btn center large::点击这里下载软件::https://github.com/PangBaiWork/WeBlog/releases ::fa-brands fa-github %}
 
 ## 导入博客
 
@@ -227,6 +226,7 @@ cp -r node_modules $BLOG_DIR
 完成脚本执行后，执行 `npm list` 查看是否包含 `hexo` 依赖即可。
 
 <!-- endtab -->
+
 {% endtabs %}
 
 ---

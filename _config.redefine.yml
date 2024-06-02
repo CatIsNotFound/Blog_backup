@@ -35,9 +35,9 @@ defaults:
 # Docs: https://redefine-docs.ohevan.com/basic/colors
 colors:
   #Primary color
-  primary: "#50893f"
+  primary: "#0d569f"
   # Secondary color (TBD)
-  secondary:
+  secondary: 
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
   default_mode: light # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -113,27 +113,32 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: https://files.codelife.cc/wallpaper/wallspic/20230607b4i633.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # light mode
-    dark: https://files.codelife.cc/wallpaper/wallspic/202306078e0723.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # dark mode
+    light: https://files.codelife.cc/wallpaper/wallspic/20240426n1bbf5.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # light mode
+    dark: https://files.codelife.cc/wallpaper/wallspic/202404261c6fea.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # dark mode
   # Home banner title
   title: CatIsNotFound
   # Home banner subtitle
   subtitle:
     text: [
-      '随心所欲享受每一天\(￣︶￣*\))', 
-      '欢迎来到我的博客~(￣▽￣)~*',  
-      '喜欢的话，给个好评呗( •̀ ω •́ )✧',
-      '喜欢的话，留个言好嘛(oﾟvﾟ)ノ',
-      '有啥想说的，随时联系我呗(｡･∀･)ﾉﾞ',
-      '文字正在不断轮换(*￣3￣)╭',
-      '正在努力更新博客(ง •_•)ง',
-      '每月不定时更新文章，欢迎关注哦(●′ω`●)',
-      '夏日炎炎，小猫咪快乐~mm(≧▽≦*)o'
+        '随时记录，随时创作~',
+        'Always record, always create~',
+        '一路向前，一切随缘~',
+        'Keep Forward, keep together~',
+        '永不放弃，永不退缩~',
+        'Never give up, never give in~',
+        '不断前进，不断奋斗~',
+        'Keep Forward, keep fighting~',
+        '不断更新，一心向前~',
+        'Always be updating, always be forward~',
+        '时代变迁，我们追随~',
+        'Time changes, we follow~',
+        '时光飞逝，我们不变~',
+        'Time flies, we don’t change~'
       ] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
-    typing_speed: 150 # Typing speed (ms)
+    typing_speed: 100 # Typing speed (ms)
     backing_speed: 30 # Backing speed (ms)
     starting_delay: 1000 # Start delay (ms)
     backing_delay: 3000 # Backing delay (ms)
@@ -158,7 +163,7 @@ home_banner:
     # Font family
     family: 
     # URL to font CSS file
-    url:
+    url: 
   # Home banner social links
   social_links:
     # Whether to enable
@@ -176,6 +181,7 @@ home_banner:
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
+      fa-brands fa-qq: /images/QQ.jpg # your QQ QRcode image URL
       weixin:  # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -188,8 +194,8 @@ navbar:
   auto_hide: false
   # Navbar background color
   color:
-    left: "#00c4c5" #left side 
-    right: "#00da6c"  #right side
+    left: "#006cc5" #left side 
+    right: "#7ecee9"  #right side
     transparency: 30 #percent (10-99)
   # Navbar width (usually no need to modify)
   width:
@@ -209,9 +215,12 @@ navbar:
         📖 学习笔记: /categories/学习笔记
         🖼️ 壁纸库: /masonry
         📚 所有分类: /categories
-    Tags: 
-      path: /tags
-      icon: fa-regular fa-tags
+    # Tags: 
+    #   path: /tags
+    #   icon: fa-regular fa-tags
+    Status:
+      icon: fa-solid fa-chart-bar
+      path: /status
     ShuoShuo: 
       icon: fa-solid fa-comment-dots
       path: /essays
@@ -369,10 +378,15 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      # serverUrl: https://catisnotfound-comment-eyvrmxuhw-catisnotfounds-projects.vercel.app # Waline server URL. e.g. https://example.example.com
       serverUrl: https://waline-1-u8595044.deta.app/ # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
-      emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
+      emoji: [
+        'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
+        'https://unpkg.com/@waline/emojis@1.2.0/weibo',
+        'https://unpkg.com/@waline/emojis@1.2.0/qq',
+        'https://unpkg.com/@waline/emojis@1.2.0/soul-emoji',
+        'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'
+      ] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
       turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
     # Gitalk comment system. See https://github.com/gitalk/gitalk
