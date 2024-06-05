@@ -109,7 +109,7 @@ deploy:
 
 admin:
   username: catisnotfound
-  password_hash: $2a$10$wn.YsM3rZfs7FPhjkQDE/ugz3wW5jSlFShi2j4bcZDn1vmdKkULj6
+  password_hash:  
   secret: NothingIsSecret
 
 # 统计图表，支持发布文章统计、发布日历、Top标签统计、分类统计、分类雷达。
