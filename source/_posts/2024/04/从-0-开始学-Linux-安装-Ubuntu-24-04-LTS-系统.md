@@ -5,10 +5,10 @@ tags: ['Linux 学习']
 categories: '技术教程'
 excerpt: '本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。'
 thumbnail: /images/0426/13.jpg
-
+sticky: 997
 ---
 
-{% notel blue 'fa-solid fa-book' '前言' %}
+{% notel regular 'fa-solid fa-book' '前言' %}
 
 本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。
 
@@ -57,7 +57,9 @@ Mac 用户建议选择 Parallels Desktop。
 
 你可以直接[点击此处下载 WSL](https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R)，打开网页后将会自动跳转到 Microsoft Store 中，只需点击下载安装即可
 
-关于相关的 WSL 教程，请[点击此处查看微软官方教程](https://learn.microsoft.com/zh-cn/windows/wsl/install)即可
+关于相关的 WSL 教程，请直接点击下方按钮以跳转至此文章。
+
+{% btn center large::WSL：一个适用于 Windows 的 Linux 子系统::/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统/::fas fa-link %}
 
 ## 实机安装（双系统安装）（⭐⭐⭐）
 

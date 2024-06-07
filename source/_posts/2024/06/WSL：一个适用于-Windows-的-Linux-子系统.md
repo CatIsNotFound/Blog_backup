@@ -5,9 +5,12 @@ tags: ['Windows 软件', 'Linux']
 categories: ['技术教程']
 excerpt: 本节内容将主要讲 WSL 的优势、配置方法及使用技巧。
 thumbnail: /images/0606/R-C.jpg
+sticky: 998
 ---
 
-> WSL 简介：适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。
+{% notel regular 'fa-solid fa-book' 'WSL 简介' %}
+适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。
+{% endnotel %}
 
 # WSL 适合谁？
 
