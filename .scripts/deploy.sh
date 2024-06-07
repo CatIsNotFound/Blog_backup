@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "* Clearing..."
-hexo clear
+npx hexo clean
 echo "* Generating..."
-hexo g
+npx hexo g 
 echo "* Deploying..."
-hexo d
+npx hexo d 
