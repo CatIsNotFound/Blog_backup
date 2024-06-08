@@ -2,7 +2,6 @@
 title: 搭建个人博客（三）：用 Android 手机更新 Hexo 博客
 tags:
   - 博客搭建
-  - 个人博客
   - 软件安利
   - Git
 categories: 博客搭建

@@ -1,7 +1,6 @@
 ---
 title: 搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客
 tags:
-  - 个人博客
   - 博客搭建
 categories: 博客搭建
 thumbnail: /images/0424/banner.jpg

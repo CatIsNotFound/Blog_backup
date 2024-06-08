@@ -3,7 +3,7 @@ title: 搭建个人博客（一）：如何在 Github Page 上搭建我的个人
 date: 2024-04-23 19:08:53
 categories: '博客搭建'
 tags: 
-    - '个人博客'
+    - 'Git'
     - '博客搭建'
 thumbnail: "/images/042301/5.jpg"
 excerpt: "在这本篇文章中，可以跟随步骤来快速搭建属于自己的博客网站"

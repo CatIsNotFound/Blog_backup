@@ -23,7 +23,3 @@ toc: true
 <div id="tags-chart" data-length="8" class="js-pjax"></div>
 
 <div id="categories-chart" class="js-pjax"></div>
-
-## Github Pages 仓库状态
-
-{% githubCard user:CatIsNotFound repo:catisnotfound.github.io %}

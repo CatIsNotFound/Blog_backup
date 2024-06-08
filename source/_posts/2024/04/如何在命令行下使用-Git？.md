@@ -1,7 +1,7 @@
 ---
 title: 如何在命令行下使用 Git？
 date: 2024-04-23 19:09:08
-tags: ['Git']
+tags: 'Git'
 categories: '技术教程'
 excerpt: "Git，作为一款强大的分布式版本控制系统，为代码协作与版本追踪提供了坚实的基础。针对不熟悉命令行操作的菜鸟，本文将简要介绍如何在命令行下利用 Git 进行简单操作。"
 thumbnail: https://tse3-mm.cn.bing.net/th/id/OIP-C.DU_6FiZRk0zVTuLtcVQXiQHaEK?rs=1&pid=ImgDetMain
