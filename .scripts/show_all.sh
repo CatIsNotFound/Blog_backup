@@ -1,3 +1,4 @@
+#!/bin/bash
 # Show all my post
 # 显示所有的 post 文章
 

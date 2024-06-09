@@ -1,5 +1,5 @@
 ---
-title: 从 0 开始学 Linux - 熟悉 GNOME 桌面
+title: 从 0 开始学 Linux：熟悉 GNOME 桌面
 date: 2024-05-03 23:59:02
 tags: ['Linux 学习']
 categories: '技术教程'
