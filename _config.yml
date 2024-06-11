@@ -105,7 +105,15 @@ deploy:
   type: git
   repo: https://github.com/CatIsNotFound/CatIsNotFound.github.io.git
   branch: 'main'
-  token: ''
+  # token: ''
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  order_by: "-date"
+  tag_dir: "tag"
+  category_dir: "category"
 
 admin:
   username: catisnotfound

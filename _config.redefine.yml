@@ -176,7 +176,8 @@ home_banner:
       bilibili: https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0 # 哔哩哔哩
       zhihu:  https://www.zhihu.com/people/catisnotfound # 知乎
       twitter:  # your twitter URL
-      email:  liaoxinkai0408@outlook.com # your email
+      email:  liaoxink0756@foxmail.com # your email
+      fa-solid fa-rss: /atom.xml # RSS
       instagram: # your Instagram URL
       # ...... # you can add more
     # Social links with QRcode drawers
