@@ -24,7 +24,7 @@ RSS 订阅是一种基于 XML 的协议，只要将 RSS 订阅地址添加/导�
 本站的 RSS 订阅地址如下：
 
 ```
-https://catisnotfound.github.io/blog_feed.xml
+https://catisnotfound.github.io/atom.xml
 ```
 
 ## 如何订阅 RSS ？
