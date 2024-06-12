@@ -5,7 +5,7 @@ tags: ['Linux 学习']
 categories: '技术教程'
 excerpt: '本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。'
 thumbnail: /images/0426/13.jpg
-sticky: 997
+sticky: 996
 ---
 
 {% notel regular 'fa-solid fa-book' '前言' %}

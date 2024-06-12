@@ -5,6 +5,7 @@ tags: ['软件安利', 'Windows 软件']
 categories: '软件安利'
 excerpt: 本篇推荐适用于 Windows 10 及 Windows 11 系统的几款可以从 Microsoft Store 上下载的软件
 thumbnail: https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg
+sticky: 998
 ---
 
 # 概述
@@ -29,6 +30,8 @@ thumbnail: https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-st
 ## Auto Dark Mode（自动调整暗色模式）👍👍👍
 
 ![](https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBWGjWbXFzWLJx27xPUNoTgLkET3RmK36fH0gX6.qI4m2SkWOM5UQMqkEy3Zs8UawwOmWb8jJozW8kTP9h0Jv4Ok-&format=source)
+
+{% btn center large::点击这里下载软件::https://apps.microsoft.com/detail/xp8jk4hzbvf435?hl=zh-cn&gl=CN ::fas fa-link %}
 
 一款非常值得使用的软件，通过指定的时间切换对应的亮色/暗色模式。👍👍👍
 
@@ -67,6 +70,8 @@ Sucrose Wallpaper Engine是一款多功能的壁纸引擎，提供广泛的交�
 ## backiee - 壁纸工作室10
 
 ![](https://store-images.s-microsoft.com/image/apps.47871.9007199266249061.c3b3cfa7-d3b0-4779-9f93-f45519fcc20a.5aa88f56-8e87-47c9-ad13-102629ed465f)
+
+{% btn center large::点击这里下载软件::https://apps.microsoft.com/detail/9wzdncrfhzcd?hl=zh-cn&gl=CN ::fas fa-link %}
 
 探索超高分辨率壁纸，4K 到 8K 图像应有尽有。若不在意频繁出现的广告，这款静态壁纸软件值得入手！
 

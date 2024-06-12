@@ -23,9 +23,9 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/logo.png
   # Site logo
-  logo: 
+  logo: /images/logo.png
   # Site avatar
   avatar: https://avatars.githubusercontent.com/u/162785971?v=4
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -177,7 +177,7 @@ home_banner:
       zhihu:  https://www.zhihu.com/people/catisnotfound # 知乎
       twitter:  # your twitter URL
       email:  liaoxink0756@foxmail.com # your email
-      fa-solid fa-rss: /atom.xml # RSS
+      fa-solid fa-rss: /feed # RSS
       instagram: # your Instagram URL
       # ...... # you can add more
     # Social links with QRcode drawers
@@ -548,7 +548,7 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
   provider: zstatic  # zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, aliyun, custom
   # Custom CDN URL
