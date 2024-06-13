@@ -45,7 +45,7 @@ Github 链接：{% btn regular::点此下载::https://github.com/yang991178/flue
 
 ## 如何订阅 RSS？
 
-打开 Fluent Reader，点击窗口标题栏上方的 <i class="fa-solid fa-settings"></i> 按钮，然后按照如下图所示进行导入：
+打开 Fluent Reader，点击窗口标题栏上方的 <i class="fa-solid fa-gear"></i> 设置/选项按钮，然后按照如下图所示进行导入：
 
 <img src="/images/rss.jpg" alt="RSS 订阅" width="500" />
 

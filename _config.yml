@@ -108,12 +108,17 @@ deploy:
   # token: ''
 
 feed:
-  type: atom
-  path: atom.xml
-  limit: 20
+  type: 
+    - atom
+    - rss2
+  path: 
+    - atom.xml
+    - rss.xml
+  limit: false
   order_by: "-date"
-  tag_dir: "tag"
-  category_dir: "category"
+  content: false
+  content_limit: 60
+  content_limit_delim: " "
 
 admin:
   username: catisnotfound
