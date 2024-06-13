@@ -2,6 +2,8 @@
 title: 音乐列表
 comment: true
 date: 2024-06-12 16:17:14
+css: /css/aplayer.min.css
+js: /js/aplayer.min.js
 ---
 
 # 音乐列表
@@ -15,19 +17,17 @@ date: 2024-06-12 16:17:14
 ---
 
 
-<link rel="stylesheet" href="https://unpkg.com/browse/aplayer@1.10.1/dist/APlayer.min.css">
+<link rel="stylesheet" type="text/css" href="/css/APlayer.min.css">
 <div id="aplayer"></div>
-<script src="https://unpkg.com/browse/aplayer@1.10.1/dist/APlayer.min.js"></script>
-
+<script type="text/javascript" src="/js/APlayer.min.js"></script>
 <script>
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     audio: [{
-        name: The Last Radiance # audio name
-        artist: LuckyKPoo # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_31796913561_b911_9785_a5bb_d0e3fb56b41749ad60c1e27f3f10144e.m4a
-        cover: https://p1.music.126.net/FRFqL7guJ-sGi97zSAbJNg==/109951169105811661.jpg?param=130y130
-        lrc: # audio cover lrc
+        name: 'name',
+        artist: 'artist',
+        url: 'url.mp3',
+        cover: 'cover.jpg'
     }]
 });
 </script>

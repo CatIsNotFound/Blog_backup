@@ -107,6 +107,8 @@ deploy:
   branch: 'main'
   # token: ''
 
+# Feed
+## Docs: https://github.com/hexojs/hexo-generator-feed
 feed:
   type: 
     - atom
@@ -116,14 +118,14 @@ feed:
     - rss.xml
   limit: false
   order_by: "-date"
-  content: false
-  content_limit: 60
-  content_limit_delim: " "
+  content: 
+  content_limit: 80
+  content_limit_delim: '。'
 
-admin:
-  username: catisnotfound
-  password_hash:  
-  secret: NothingIsSecret
+# Lazy Load
+## Docs: https://github.com/fengkx/hexo-native-lazy-load
+lazy_load:
+  enable: true
 
 # 统计图表，支持发布文章统计、发布日历、Top标签统计、分类统计、分类雷达。
 # see https://www.npmjs.com/package/hexo-butterfly-charts

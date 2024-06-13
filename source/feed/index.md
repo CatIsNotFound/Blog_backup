@@ -27,6 +27,10 @@ RSS 订阅是一种基于 XML 的协议，只要将 RSS 订阅地址添加/导�
 https://catisnotfound.github.io/atom.xml
 ```
 
+```
+https://catisnotfound.github.io/rss.xml
+```
+
 ## RSS 阅读器
 
 目前你可以通过电脑端或手机端下载对应的 RSS 阅读器，然后将本站的 RSS 订阅地址添加到阅读器中即可。

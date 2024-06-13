@@ -350,7 +350,7 @@ articles:
     enable: true # Whether to enable
     default: cc_by_nc_sa # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
-  lazyload: true
+  lazyload: false
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
@@ -381,6 +381,12 @@ comment:
     waline:
       serverUrl: https://waline-1-u8595044.deta.app/ # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+      reaction: [
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_heart_eyes.png',
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_dog_joy.png',
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_dog_consider.png',
+        'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_sob.png',
+      ]
       emoji: [
         'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
         'https://unpkg.com/@waline/emojis@1.2.0/weibo',
