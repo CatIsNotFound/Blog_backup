@@ -5,7 +5,6 @@ tags: ['Windows 软件', 'Linux 学习']
 categories: ['技术教程']
 excerpt: 本节内容将主要讲 WSL 的优势、配置方法及使用技巧。
 thumbnail: /images/0606/R-C.jpg
-sticky: 997
 ---
 
 {% notel regular 'fa-solid fa-book' 'WSL 简介' %}

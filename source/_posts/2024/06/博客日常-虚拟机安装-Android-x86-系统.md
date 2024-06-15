@@ -1,10 +1,11 @@
 ---
 title: '【博客日常】 虚拟机安装 Android x86 系统'
-date: 2024-06-15 13:32:59
+date: 2024-06-15 16:32:59
 tags: ['博客日常', 'Android']
 categories: 博客日常
 excerpt: 本文主要介绍了 Android x86 系统的安装、使用、体验等。
 thumbnail: https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg
+sticky: 998
 ---
 
 # 前言
