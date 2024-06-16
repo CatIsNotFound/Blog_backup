@@ -469,64 +469,9 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: Turtle Swim # audio name
-        artist: Johannes Bornlöf # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_24924003445_8035_5eca_8cab_f1085b64efd4269058d185a281fc4cf4.m4a # audio url
-        cover: https://p2.music.126.net/_ezsKhb-ZGEx4v6V42nM9w==/109951168312540567.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: Track in Time (Piano Version) # audio name
-        artist: Dennis Kuo # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_5755277335_d242_6184_4bbd_242c1d95b1adf4c6d0cd97934dc50505.m4a # audio url
-        cover: https://p1.music.126.net/12VWxDFzUv5oCmlXqasdcw==/109951165628105528.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: The Last Radiance # audio name
-        artist: LuckyKPoo # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_31796913561_b911_9785_a5bb_d0e3fb56b41749ad60c1e27f3f10144e.m4a  # audio url
-        cover: https://p1.music.126.net/FRFqL7guJ-sGi97zSAbJNg==/109951169105811661.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: 光·遇 # audio name
-        artist: LuckyKPoo # audio artist
-        url: /bgmusic/obj_wonDkMOGw6XDiTHCmMOi_2901490380_7998_b2b1_fb1d_470be3b0658ccb1a5723c65c80cea254.m4a  # audio url
-        cover: https://p2.music.126.net/KrF09KHR56VJscA8oxi1Qw==/109951169138110281.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: Things You Said # audio name
-        artist: Cody Fry / Abby Cates # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_30417275872_0393_d4d6_a579_226afb0db5b39402e695a7a37e0618d9.m4a  # audio url
-        cover: https://p1.music.126.net/Q9OkD_MsN63DXdP86fiB4w==/109951168753316527.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: Blue # audio name
-        artist: Rob Simonsen # audio artist
-        url: /bgmusic/560b_015e_525f_aa6723d04d64725b6f2fe523c0c6f70d.m4a  # audio url
-        cover: https://p2.music.126.net/FZX7XAjsmEPGyVOqm4H7aQ==/109951166361039007.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: '城南花已开' # audio name
-        artist: '三亩地' # audio artist
-        url: /bgmusic/obj_wo3DlMOGwrbDjj7DisKw_28481694702_8291_ca6d_e20a_3b7393eda9c51cc568a061c0d5f39811.mp3   # audio url
-        cover: https://p2.music.126.net/i-7ktILRPImJ0NwiH8DABg==/109951162885959979.jpg?param=130y130   # audio cover url
-        lrc: # audio cover lrc
-      - name: 蒲公英的約定 (Piano Ver.) # audio name
-        artist: Piano Echoes # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_29519198724_b137_36ce_731e_e034e950dd9ece4058008fae2dc45b3a.m4a  # audio url
-        cover: https://p2.music.126.net/p4V2p4kT7gGgDCdxpYWANQ==/109951168760973063.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: 七里香 (Piano Ver.) # audio name
-        artist: Piano Echoes # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_29519195602_7696_3d28_47fe_da60f3d579bd6dc2d05336a9893b15f2.m4a  # audio url
-        cover: https://p2.music.126.net/p4V2p4kT7gGgDCdxpYWANQ==/109951168760973063.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: いつも何度でも # audio name
-        artist: 宗次郎 # audio artist
-        url: /bgmusic/0409_515d_0459_3cea16e1fbf7f5fb884733d678d91b2b.m4a # audio url
-        cover: https://p2.music.126.net/ygxAeYxxXPONww041tylMw==/5996736418028563.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
-      - name: 夏·烟火 # audio name
-        artist: LIKPIA # audio artist
-        url: /bgmusic/obj_w5rDlsOJwrLDjj7CmsOj_28481783331_2220_7ec0_58aa_14f5820935f91d0cd31754eaed8e3daa.m4a # audio url
-        cover: https://p1.music.126.net/j4_dMdy2z_Oo4J4Tr3ybbw==/109951163153226016.jpg?param=130y130 # audio cover url
-        lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
