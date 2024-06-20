@@ -1,11 +1,10 @@
 ---
-title: 【软件安利】安利几款在 Microsoft Store 上的软件
+title: 软件安利：安利几款在 Microsoft Store 上的软件
 date: 2024-05-26 00:30:20
 tags: ['软件安利', 'Windows 软件']
 categories: '软件安利'
 excerpt: 本篇推荐适用于 Windows 10 及 Windows 11 系统的几款可以从 Microsoft Store 上下载的软件
 thumbnail: https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg
-sticky: 997
 ---
 
 # 概述
