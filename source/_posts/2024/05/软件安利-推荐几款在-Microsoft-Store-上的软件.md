@@ -14,6 +14,8 @@ thumbnail: https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-st
 
 如果你有更好的推荐，请在评论区补充。O(∩_∩)O
 
+![](https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg)
+
 # 一、桌面美化类
 
 ## TranslucentTB（任务栏）👍👍👍

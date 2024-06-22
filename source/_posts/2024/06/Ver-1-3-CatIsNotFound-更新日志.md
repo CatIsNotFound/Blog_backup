@@ -5,6 +5,7 @@ categories: 更新日志
 excerpt: 关于此博客站点的更新日志
 thumbnail: /images/2024/0620/cover.jpg
 date: 2024-06-20 12:31:43
+updated: 2024-06-20 19:18:37
 expires:
 ---
 
@@ -12,6 +13,8 @@ expires:
 {% notel blue 'fa-solid fa-book' '写在最前' %}
 
 仅此两三周的时间，博客站点又迎来了一次更新。以下是关于本博客站点的更新内容。
+
+![](/images/2024/0620/cover.jpg)
 
 {% endnotel %}
 
@@ -21,7 +24,7 @@ expires:
 
 在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。
 
-![Logo](/images/2024/logo.png)
+![Logo](/images/logo.png)
 
 **如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。**
 

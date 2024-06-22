@@ -1,6 +1,6 @@
 ---
 title: '系统安装日常：简单快速安装 Windows 11/10'
-date: 2024-06-22 14:08:00
+date: 2024-06-22 14:08:24
 tags: ['Windows', '系统安装']
 categories: 技术教程
 excerpt: 本文简要介绍了如何快速安装 Windows 系统，以及遇到的问题解决方法。
