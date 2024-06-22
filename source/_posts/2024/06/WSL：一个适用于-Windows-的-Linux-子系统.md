@@ -1,14 +1,16 @@
 ---
 title: WSL：一个适用于 Windows 的 Linux 子系统
 date: 2024-06-06 17:03:20
-tags: ['Windows 软件', 'Linux 学习']
+updated: 2024-06-15 20:52:44
+tags: ['Windows', 'Linux 学习']
 categories: ['技术教程']
 excerpt: 本节内容将主要讲 WSL 的优势、配置方法及使用技巧。
-thumbnail: /images/0606/R-C.jpg
+thumbnail: /images/2024/0606/R-C.jpg
 ---
 
 {% notel regular 'fa-solid fa-book' 'WSL 简介' %}
 适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。
+![](/images/2024/0606/R-C.jpg)
 {% endnotel %}
 
 # WSL 适合谁？
@@ -34,7 +36,7 @@ WSL 2 支持 Windows 11、Windows 10 版本 2004 及更高版本（内部版本 
 
 请在下载安装前，通过 <kbd><i class="fa-brands fa-windows"></i></kbd> + `R` 打开【运行】窗口，并执行 `winver` 查看操作系统内部版本号。
 
-<img src="/images/0606/1.jpg" alt="查看操作系统内部版本号" style="width: 50%">
+<img src="/images/2024/0606/1.jpg" alt="查看操作系统内部版本号" style="width: 50%">
 
 {% endnotel %}
 
@@ -163,7 +165,7 @@ wsl --set-default <发行版名称>
 
 在通知区域图标下，你可以鼠标单击打开管理界面，鼠标双击打开会启动默认的 WSL 发行版并打开终端。
 
-<img src="/images/0606/3.jpg" alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%">
+<img src="/images/2024/0606/3.jpg" alt="WSL Tray Monitor 系统托盘监控工具" style="width: 50%">
 
 **WSL Toolbox - 图形化管理 WSL 的工具箱**
 
@@ -173,13 +175,13 @@ WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对
 
 但是，对比之前的软件，这个软件并没有系统托盘管理，且容易出现闪退的情况。
 
-<img src="/images/0606/2.jpg" alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%">
+<img src="/images/2024/0606/2.jpg" alt="WSL Toolbox 图形化管理 WSL 的工具箱" style="width: 80%">
 
 ## 文件管理
 
 你可以在 Windows 资源管理器中访问 <i class="fa-brands fa-linux">Linux</i>，如下图：
 
-<img src="/images/0606/4.jpg" alt="在资源管理器中访问 Linux" style="width: 80%">
+<img src="/images/2024/0606/4.jpg" alt="在资源管理器中访问 Linux" style="width: 80%">
 
 ## 使用 Visual Studio Code 开发
 
@@ -187,7 +189,7 @@ WSL Toolbox 是一个图形化管理 WSL 的工具箱，你可以在里面针对
 
 你仅需要安装 Visual Studio Code 并安装适用于 WSL 的插件。
 
-![在 WSL 中打开项目](/images/0606/5.jpg)
+![在 WSL 中打开项目](/images/2024/0606/5.jpg)
 
 # 写在最后
 

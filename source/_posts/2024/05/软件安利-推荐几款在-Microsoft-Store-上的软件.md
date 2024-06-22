@@ -1,7 +1,8 @@
 ---
 title: 软件安利：安利几款在 Microsoft Store 上的软件
 date: 2024-05-26 00:30:20
-tags: ['软件安利', 'Windows 软件']
+updated: 2024-06-10 14:00:21
+tags: ['软件安利', 'Windows']
 categories: '软件安利'
 excerpt: 本篇推荐适用于 Windows 10 及 Windows 11 系统的几款可以从 Microsoft Store 上下载的软件
 thumbnail: https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg
@@ -17,8 +18,8 @@ thumbnail: https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-st
 
 ## TranslucentTB（任务栏）👍👍👍
 
-![](/images/0527/0.jpg)
-![](/images/0527/00.jpg)
+![](/images/2024/0527/0.jpg)
+![](/images/2024/0527/00.jpg)
 
 {% btn center large::点击这里下载软件::https://apps.microsoft.com/detail/9pf4kz2vn4w9?ocid=badge&rtc=1&hl=zh-cn&gl=CN ::fas fa-link %}
 

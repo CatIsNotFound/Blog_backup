@@ -1,11 +1,13 @@
 ---
 title: 搭建个人博客（一）：如何在 Github Page 上搭建我的个人博客
 date: 2024-04-23 19:08:53
+updated: 2024-06-08 21:02:38
 categories: '博客搭建'
 tags: 
     - 'Git'
     - '博客搭建'
-thumbnail: "/images/042301/5.jpg"
+    - 'Hexo'
+thumbnail: "/images/2024/042301/5.jpg"
 excerpt: "在这本篇文章中，可以跟随步骤来快速搭建属于自己的博客网站"
 ---
 
@@ -30,29 +32,29 @@ excerpt: "在这本篇文章中，可以跟随步骤来快速搭建属于自己�
 注册之后，接下来就要创建自己的仓库，
 首先点击【New】，如下图：
 
-![1.jpg](/images/042301/1.jpg)
+![1.jpg](/images/2024/042301/1.jpg)
 
 其次，创建仓库时，**仓库名一定要以`[你的用户名].github.io` 为名，** 默认下都会将其设为 Github Page，之后就能完成创建。具体看下图：
 
-![2.jpg](/images/042301/2.jpg)
+![2.jpg](/images/2024/042301/2.jpg)
 
 创建完成之后，点击进入你的仓库项目，依次点击【Settings】→ 【Pages】→【Deploy from a branch】，并选择【Github Action】（作此步是方便为了后期可以更换框架来改善自己的博客网页）
-![2.1.jpg](/images/042301/2.1.jpg)
+![2.1.jpg](/images/2024/042301/2.1.jpg)
 
 ### 3. 选择框架
 
 当你做完上述步骤后，你可以直接访问自己的网页，如下图：
-![3.0.jpg](/images/042301/3.0.jpg)
+![3.0.jpg](/images/2024/042301/3.0.jpg)
 
 接下来就是选择网页框架。这里就以 Hexo 为例，这里就只需要用到 `git` 和 `node.js` 两个依赖软件了，关于详细地安装步骤，请直接参照[官方文档](https://hexo.io/zh-cn/docs/)即可
 
 完成后的搭建，大概是长这样的：
 
-![3.jpg](/images/042301/3.jpg)
+![3.jpg](/images/2024/042301/3.jpg)
 
 当然，这还不够，你还可以给它更换一个更好看的主题，这里作者就用了 Redefine 主题，大概就是长这样的(\*^_^\*)：
 
-![4.jpg](/images/042301/4.jpg)
+![4.jpg](/images/2024/042301/4.jpg)
 
 {% notel blue 'fa-solid fa-lightbulb' '跳转提示' %}
 
@@ -64,7 +66,7 @@ excerpt: "在这本篇文章中，可以跟随步骤来快速搭建属于自己�
 
 最后简单的做个配置，最终呈现了这样的效果：
 
-![5.jpg](/images/042301/5.jpg)
+![5.jpg](/images/2024/042301/5.jpg)
 
 
 ### 4. 上传到 Github

@@ -6,7 +6,7 @@ tags:
 categories: 技术教程
 date: 2024-06-09 13:10:00
 excerpt: 本教程将帮助 Linux 新手或菜鸟通过使用 Bash 命令行使用一些基本命令。
-thumbnail: /images/0606/R-C.jpg
+thumbnail: /images/2024/0606/R-C.jpg
 ---
 
 # 写在最前

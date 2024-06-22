@@ -3,7 +3,7 @@ title: '[Ver 1.0] 更新：CatIsNotFound 正式在 Github Page 上发布'
 tags:
   - 更新日志
 categories: 更新日志
-thumbnail: /images/0423/Snipaste_2024-04-23_18-48-23.jpg
+thumbnail: /images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg
 excerpt: 关于博客网站的更新内容
 date: 2024-04-23 18:54:46
 ---
@@ -15,8 +15,8 @@ date: 2024-04-23 18:54:46
 ## What's New
 
 - 使用 [Hexo 7.1.1](https://hexo.io/zh-cn/) 与 [RendeFine 2.6.1](https://github.com/EvanNotFound/hexo-theme-redefine) 框架搭建的个人博客，支持暗黑主题和亮色主题
-  ![暗色](/images/0423/Snipaste_2024-04-23_18-48-23.jpg)
-  ![亮色](/images/0423/Snipaste_2024-04-23_18-47-15.jpg)
+  ![暗色](/images/2024/0423/Snipaste_2024-04-23_18-48-23.jpg)
+  ![亮色](/images/2024/0423/Snipaste_2024-04-23_18-47-15.jpg)
 
 - 新增【分类】、【说说】、【壁纸库】等页面，可以快速找到需要查看的博客内容
   
@@ -24,7 +24,7 @@ date: 2024-04-23 18:54:46
   - 其中的【说说】会在此留下所有关于作者的一些话
 
 - 支持在线播放音乐，目前已存放 11 首纯音乐，**但需要手动才能开启**
-  ![音乐](/images/0423/music.jpg)
+  ![音乐](/images/2024/0423/music.jpg)
 
 - 修复了一些已知的问题，但没完全修复(づ￣ 3￣)づ
 

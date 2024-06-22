@@ -3,7 +3,7 @@ title: '[Ver 1.3] CatIsNotFound 更新日志'
 tags: 更新日志
 categories: 更新日志
 excerpt: 关于此博客站点的更新日志
-thumbnail: /images/0620/cover.jpg
+thumbnail: /images/2024/0620/cover.jpg
 date: 2024-06-20 12:31:43
 expires:
 ---
@@ -21,7 +21,7 @@ expires:
 
 在本次更新中，本人新增了一个博客站点 Logo；这是基于一张《夏日友人帐》中的猫咪老师的形象而绘制的。
 
-![Logo](/images/logo.png)
+![Logo](/images/2024/logo.png)
 
 **如果此 Logo 存在任何侵权，请直接在评论区下方或者联系本人进行删除。**
 
@@ -35,7 +35,7 @@ expires:
 
 - 同时，头部导航栏以及侧边导航栏已作出修改；使得更容易翻阅每篇文章；
 
-![首页2](/images/0620/1.jpg)
+![首页2](/images/2024/0620/1.jpg)
 
 ## 文章页面
 
@@ -43,7 +43,7 @@ expires:
 
 - 文章页面底部新增 **[表情反应]** 界面，你可以在对应文章的下方选择你的表情反应；
 
-![表情反应](/images/0620/2.jpg)
+![表情反应](/images/2024/0620/2.jpg)
 
 
 

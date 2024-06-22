@@ -4,7 +4,7 @@ date: 2024-06-09 13:15:33
 tags: [Linux 学习, 脚本]
 categories: 技术教程
 excerpt: 本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。
-thumbnail: /images/0606/R-C.jpg
+thumbnail: /images/2024/0606/R-C.jpg
 ---
 
 Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动化执行一些重复性的任务。

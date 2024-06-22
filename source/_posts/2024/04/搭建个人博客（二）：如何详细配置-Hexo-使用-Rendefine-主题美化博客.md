@@ -2,10 +2,12 @@
 title: 搭建个人博客（二）：如何详细配置 Hexo + 使用 Redefine 主题美化博客
 tags:
   - 博客搭建
+  - Hexo
 categories: 博客搭建
-thumbnail: /images/0424/banner.jpg
+thumbnail: /images/2024/0424/banner.jpg
 excerpt: 在这篇文章中，将会详细地讲述搭建后关于 Hexo 的配置以及如何自定义自己的 Redefine 主题。
 date: 2024-04-24 14:44:21
+updated: 2024-06-11 15:53:03
 ---
 
 
@@ -86,10 +88,10 @@ Password for 'https://CatIsNotFound@github.com': # 从 Github 中粘贴自己生
 1. 要想获取 Token，首先进入此链接 [New Personal Access Token (Classic) (github.com)](https://github.com/settings/tokens/new)
    
 2. 根据如下图所示操作：
-   ![](/images/0424/1.jpg)
+   ![](/images/2024/0424/1.jpg)
 
 3. 完成后点击最下方的绿色按钮【Generate token】，这将会生成一个随机的 token，如下图：
-   ![](/images/0424/2.jpg)
+   ![](/images/2024/0424/2.jpg)
 
    上图中的绿色框为所需要的 Token​。
 
@@ -104,7 +106,7 @@ Password for 'https://CatIsNotFound@github.com': # 从 Github 中粘贴自己生
 
 若已经完成了上传，只需要在 github 上刷新即可查看到上传的内容是否类似如下：
 
-![](/images/0424/3.jpg)
+![](/images/2024/0424/3.jpg)
 
 ## Redefine 美化主题配置
 
@@ -150,11 +152,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/2024/redefine-favicon.svg
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/2024/redefine-avatar.svg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -240,8 +242,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/2024/wallhaven-wqery6-light.webp # light mode
+    dark: /images/2024/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
   title: Theme Redefine
   # Home banner subtitle
@@ -440,7 +442,7 @@ articles:
     # Max number of articles to display mobile
     mobile_limit: 2
     # Placeholder image
-    placeholder: /images/wallhaven-wqery6-light.webp
+    placeholder: /images/2024/wallhaven-wqery6-light.webp
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -591,7 +593,7 @@ developer:
 
 完成如上配置后，首先请保证你的文件目录存放位置是否正确，具体如下：
 
-![](/images/0424/7.jpg)
+![](/images/2024/0424/7.jpg)
 
 仅需在终端下执行如下命令，即可看到切换好的主题：
 
@@ -620,7 +622,7 @@ info:
   
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg # 默认的图标，暂时不改
+  favicon: /images/2024/redefine-favicon.svg # 默认的图标，暂时不改
   # Site logo
   logo: 			# 目前作者暂时没有设计博客图标，可以先空着
   # Site avatar
@@ -639,7 +641,7 @@ colors:
 
 通过如下图一个个比较
 
-![](/images/0424/4.jpg)
+![](/images/2024/0424/4.jpg)
 
 ```yaml
 home_banner:
@@ -720,7 +722,7 @@ home_banner:
 
 #### 导航栏
 
-![](/images/0424/5.jpg)
+![](/images/2024/0424/5.jpg)
 
 ```yaml
 navbar:
@@ -768,7 +770,7 @@ navbar:
 
 #### 侧边栏
 
-![](/images/0424/6.jpg)
+![](/images/2024/0424/6.jpg)
 
 ```yaml
 home:

@@ -4,7 +4,7 @@ date: 2024-05-03 23:59:02
 tags: ['Linux 学习']
 categories: '技术教程'
 excerpt: '本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。'
-thumbnail: /images/0426/13.jpg
+thumbnail: /images/2024/0426/13.jpg
 ---
 
 {% notel blue 'fa-solid fa-book' '前言' %}
@@ -19,9 +19,9 @@ thumbnail: /images/0426/13.jpg
 
 请根据如下图的标识一一对应。
 
-![桌面](/images/0503/1.jpg)
+![桌面](/images/2024/0503/1.jpg)
 
-![快捷菜单](/images/0503/3.jpg)
+![快捷菜单](/images/2024/0503/3.jpg)
 
 {% notel red 'fa-solid fa-circle-info' '注意' %}
 
@@ -31,7 +31,7 @@ thumbnail: /images/0426/13.jpg
 
 这里以 Fedora Workstation 40 为例。此桌面为原生 GNOME 桌面布局，即缺少了左侧的 Dock 栏、桌面图标、托盘图标，以及窗口默认的最小化、最大化（这些均需靠【优化】软件或 `gnome-shell` 插件来实现）
 
-![](/images/0503/2.jpg)
+![](/images/2024/0503/2.jpg)
 
 {% endnotel %}
 
@@ -80,7 +80,7 @@ Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands
 
 若你不确定某个应用位于快捷栏中的某个位置，只需按下快捷键 <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>Q</kbd> 即可。如下图：
 
-![在快捷栏中启动应用](/images/0503/4.jpg)
+![在快捷栏中启动应用](/images/2024/0503/4.jpg)
 
 ### 固定应用到 Dock 栏（快捷栏）
 
@@ -88,7 +88,7 @@ Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands
 
 你可以点击 Dock 栏（快捷栏）最下方的 Ubuntu 图标，或按下快捷键  <kbd><i class="fa-brands fa-windows"></i></kbd> + <kbd>A</kbd> 打开所有应用程序，选择一个应用，鼠标右键，选择【固定到快捷栏】。同理，在 Dock 栏（快捷栏）中取消固定应用也是如此
 
-![固定应用](/images/0503/5.jpg)
+![固定应用](/images/2024/0503/5.jpg)
 
 #### 2. 通过鼠标拖拽
 
@@ -96,9 +96,9 @@ Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands
 
 反之，从 Dock 栏（快捷栏）中的应用拖拽回【所有程序】中，就能解除固定。 
 
-![固定应用程序](/images/0503/1.gif)
+![固定应用程序](/images/2024/0503/1.gif)
 
-![取消固定应用程序](/images/0503/2.gif)
+![取消固定应用程序](/images/2024/0503/2.gif)
 
 ---
 
@@ -106,9 +106,9 @@ Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands
 
 反之，若需要取消固定快捷栏中的应用，只需拖拽到 Ubuntu 图标（或者九个点的图标）即可取消固定。（原生 GNOME 环境下也是如此）
 
-![在桌面中固定](/images/0503/3.gif)
+![在桌面中固定](/images/2024/0503/3.gif)
 
-![在桌面中解除固定](/images/0503/4.gif)
+![在桌面中解除固定](/images/2024/0503/4.gif)
 
 ## 窗口（Window）
 
@@ -116,7 +116,7 @@ Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands
 
 与 Windows 的操作逻辑类似，将鼠标快速拖拽窗口到最左侧，是窗口变为左半屏，然后再选择应用将窗口变为右半屏。
 
-![左右分屏](/images/0503/6.gif)
+![左右分屏](/images/2024/0503/6.gif)
 
 {% note yellow 'fa-solid fa-solid fa-lightbulb' %}
 
@@ -130,7 +130,7 @@ Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands
 
 与 Windows 的操作逻辑类似，这里不过多阐述，直接看动图就完事了 o(\*￣▽￣\*)o
 
-![上下分屏](/images/0503/7.gif)
+![上下分屏](/images/2024/0503/7.gif)
 
 ## 工作区（Workspace）
 
@@ -140,17 +140,17 @@ Ubuntu 桌面默认自带的任务栏，可直接利用 <kbd><i class="fa-brands
 
 不多描述，直接看图
 
-![](/images/0503/long1.gif)
+![](/images/2024/0503/long1.gif)
 
-![](/images/0503/long2.gif)
+![](/images/2024/0503/long2.gif)
 
-![](/images/0503/long3.gif)
+![](/images/2024/0503/long3.gif)
 
-![](/images/0503/long4.gif)
+![](/images/2024/0503/long4.gif)
 
-![](/images/0503/long5.gif)
+![](/images/2024/0503/long5.gif)
 
-![](/images/0503/long6.gif)
+![](/images/2024/0503/long6.gif)
 
 下列为比较好用的快捷键（即上图中所提及到的操作）：
 

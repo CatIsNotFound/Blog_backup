@@ -4,12 +4,14 @@ tags:
   - 博客搭建
   - 软件安利
   - Git
+  - Hexo
 categories: 博客搭建
 excerpt: >-
   现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo
   博客的更新通常需要通过命令行操作，对于不擅长命令行操作的小白来说，更新博客就显得十分麻烦。本文将介绍仅适用于 Android 的软件，帮助你在手机上轻松地更新 Hexo 博客。
 date: 2024-05-27 10:18:00
-thumbnail: /images/0527/banner.jpg
+updated: 2024-06-08 21:02:24
+thumbnail: /images/2024/0527/banner.jpg
 ---
 
 # 前言
@@ -68,7 +70,7 @@ WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，�
 
 接着，在选择文件夹时，**请一定要新建一个空的文件夹**，否则无法拉取 Github 仓库项目。
 
-![](/images/0527/1.jpg)
+![](/images/2024/0527/1.jpg)
 
 最后，请耐心等待加载，一般需要几分钟才能完成克隆。
 
@@ -88,7 +90,7 @@ WeBlog 是一个运行在安卓的静态博客编写器，他提供从编写，�
 hexo new "文章标题"
 ```
 
-![](/images/0527/2.jpg)
+![](/images/2024/0527/2.jpg)
 
 **3. 尽情写作吧！**
 
@@ -148,9 +150,9 @@ Q：为什么拉取项目后，打开自建的文件夹仍是空的？
 
 A：请检查你的远程 Github 仓库是否为私人仓库，若为私人仓库（Private），请将该仓库转换为公共仓库（Public）。
 
-![](/images/0513/6.jpg)
+![](/images/2024/0513/6.jpg)
 
-![](/images/0513/7.jpg)
+![](/images/2024/0513/7.jpg)
 
 <!-- endtab -->
 
@@ -220,7 +222,7 @@ cp -r node_modules $BLOG_DIR
 # bash ./.scripts/install.sh
 ```
 
-![](/images/0527/3.jpg)
+![](/images/2024/0527/3.jpg)
 
 完成脚本执行后，执行 `npm list` 查看是否包含 `hexo` 依赖即可。
 
