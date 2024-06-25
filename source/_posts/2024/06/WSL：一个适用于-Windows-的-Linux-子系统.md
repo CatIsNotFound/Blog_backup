@@ -2,7 +2,7 @@
 title: WSL：一个适用于 Windows 的 Linux 子系统
 date: 2024-06-06 17:03:20
 updated: 2024-06-15 20:52:44
-tags: ['Windows', 'Linux 学习']
+tags: ['Windows', 'Linux']
 categories: ['技术教程']
 excerpt: 本节内容将主要讲 WSL 的优势、配置方法及使用技巧。
 thumbnail: /images/2024/0606/R-C.jpg

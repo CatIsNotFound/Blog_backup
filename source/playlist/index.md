@@ -2,8 +2,6 @@
 title: 音乐列表
 comment: true
 date: 2024-06-12 16:17:14
-css: /css/aplayer.min.css
-js: /js/aplayer.min.js
 ---
 
 # 音乐列表
@@ -17,17 +15,3 @@ js: /js/aplayer.min.js
 ---
 
 
-<link rel="stylesheet" type="text/css" href="/css/APlayer.min.css">
-<div id="aplayer"></div>
-<script type="text/javascript" src="/js/APlayer.min.js"></script>
-<script>
-const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    audio: [{
-        name: 'name',
-        artist: 'artist',
-        url: 'url.mp3',
-        cover: 'cover.jpg'
-    }]
-});
-</script>

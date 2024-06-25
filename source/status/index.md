@@ -1,11 +1,11 @@
 ---
-title: 状态
+title: 统计
 comment: true
 date: 2024-06-01 23:19:08
 toc: true
 ---
 
-# 状态
+# 统计
 
 ------
 

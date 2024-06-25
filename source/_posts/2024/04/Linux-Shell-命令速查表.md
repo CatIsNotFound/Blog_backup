@@ -1,7 +1,7 @@
 ---
 title: Linux Shell 基础命令速查表（非完整版）
 date: 2024-04-25 13:25:08
-tags: ['Linux 学习']
+tags: ['Linux']
 categories: ['技术教程']
 excerpt: "此文章主要用于查询 Linux 相关命令，可用于快速查询"
 thumbnail: https://tecnoguia.net/wp-content/uploads/2021/08/Descripcion-general-de-los-sistemas-operativos-Linux-6.jpg

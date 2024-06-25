@@ -1,7 +1,7 @@
 ---
 title: 从 0 开始学 Linux：Bash Shell 脚本入门
 date: 2024-06-09 13:15:33
-tags: [Linux 学习, 脚本]
+tags: [Linux, 脚本]
 categories: 技术教程
 excerpt: 本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。
 thumbnail: /images/2024/0606/R-C.jpg
