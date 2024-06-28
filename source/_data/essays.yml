@@ -1,7 +1,16 @@
 - content: |
+		**🌏 2024/06/27 博客小更新**
+		
+		1. 我们的 “留言板” 名称已更名为 “动态” ，以后将会在此发布各种关于博主的动态。
+		1. 页面新增了 🎵 “音乐” 页面，**🔗<a href="/playlist" target="_blank">点击此处可直接跳转</a>🔗**到最新页面。
+		
+		后续还会继续改善博客页面，欢迎大家多多关注！
+  date: 2024-06-27 18:29 
+
+- content: |
 		### 随手发一首 MV 😘
 		
-		<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=222997737&bvid=BV1N8411P7uP&cid=970490391&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"></iframe>
+		<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=222997737&bvid=BV1N8411P7uP&cid=970490391&p=1" autoplay="false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"></iframe>
   date: 2024-06-12 16:09 
 
 - content: |

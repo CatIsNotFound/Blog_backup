@@ -125,7 +125,7 @@ feed:
 # Lazy Load
 ## Docs: https://github.com/fengkx/hexo-native-lazy-load
 lazy_load:
-  enable: false
+  enable: true
 
 # Hexo Tag APlayer
 ## Docs: https://github.com/MoePlayer/hexo-tag-aplayer
@@ -136,6 +136,8 @@ aplayer:
     - mp3
     - ogg
     - wav
+    - flac
+  meting: true
 
 # 统计图表，支持发布文章统计、发布日历、Top标签统计、分类统计、分类雷达。
 # see https://www.npmjs.com/package/hexo-butterfly-charts

@@ -37,7 +37,7 @@ colors:
   #Primary color
   primary: "#0d569f"
   # Secondary color (TBD)
-  secondary: 
+  secondary:
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
   default_mode: light # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -163,7 +163,7 @@ home_banner:
     # Font family
     family: 
     # URL to font CSS file
-    url: 
+    url:
   # Home banner social links
   social_links:
     # Whether to enable
@@ -263,21 +263,25 @@ home:
     enable: true # Whether to enable sidebar
     position: right # Sidebar position. left, right
     first_item: info # First item in sidebar. menu, info
-    announcement: 一日之计在于晨，一年之计在于春 # Announcement text
+    announcement: 随时记录，随时创作~ # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
+      动态: 
+        icon: fa-solid fa-comment-dots
+        path: /myfeed
+      音乐:
+        icon: fa-solid fa-music
+        path: /playlist
+      壁纸:
+        icon: fa-solid fa-images
+        path: /masonry
       RSS:
         icon: fa-solid fa-rss
         path: /feed
       统计:
         icon: fa-solid fa-chart-bar
         path: /status
-      留言板: 
-        icon: fa-solid fa-comment-dots
-        path: /essays
-      壁纸库:
-        icon: fa-solid fa-images
-        path: /masonry
+      
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -424,7 +428,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 4/23 18:00:00
+  start: 2024/04/23 18:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
@@ -498,10 +502,10 @@ cdn:
   # Whether to enable CDN
   enable: false
   # CDN Provider
-  provider: zstatic  # zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, aliyun, custom
+  provider: npmmirror # npmmirror, zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
-  # The ${path} must be in the source folder of the theme
+  # The ${path} must leads to the root of the "source" folder of the theme
   custom_url: 
 # CDN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
