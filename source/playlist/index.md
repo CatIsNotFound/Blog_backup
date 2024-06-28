@@ -9,7 +9,11 @@ date: 2024-06-12 16:17:14
 ---
 
 {% notel blue 'fa-solid fa-circle-info' '提示' %}
-此页面为静态页面，并非实时更新。若访问时未能显示播放器，请<a href="javascript:location.reload()">点击此处刷新页面</a>。
+此页面为静态页面，并非实时更新。若访问时未能成功显示 APlayer 播放器，请<a href="javascript:location.reload()">点击此处刷新页面</a>。
+{% endnotel %}
+
+{% notel yellow 'fa-solid fa-circle-exclamation' '警告' %}
+手机端无法正常显示 APlayer 播放器。若需显示播放器页面，**请直接开启 "桌面模式" 以刷新浏览。**
 {% endnotel %}
 
 ---

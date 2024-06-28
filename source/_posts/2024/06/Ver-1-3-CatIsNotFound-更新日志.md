@@ -1,6 +1,6 @@
 ---
 title: '[Ver 1.3] CatIsNotFound 更新日志'
-tags: 更新日志
+tags: [更新日志, Waline]
 categories: 更新日志
 excerpt: 关于此博客站点的更新日志
 thumbnail: /images/2024/0620/cover.jpg

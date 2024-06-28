@@ -5,6 +5,7 @@ tags:
   - 软件安利
   - Git
   - Hexo
+  - Android
 categories: 博客搭建
 excerpt: >-
   现如今，Hexo 博客已经成为一个非常流行的博客框架，但是 Hexo

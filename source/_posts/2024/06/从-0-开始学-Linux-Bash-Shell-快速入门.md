@@ -3,6 +3,7 @@ title: 从 0 开始学 Linux：Bash Shell 快速入门
 tags:
   - 脚本
   - Linux
+  - 新手向
 categories: 技术教程
 date: 2024-06-09 13:10:00
 excerpt: 本教程将帮助 Linux 新手或菜鸟通过使用 Bash 命令行使用一些基本命令。

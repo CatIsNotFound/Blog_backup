@@ -1,7 +1,8 @@
 ---
 title: Python 快速入门（学习笔记）
 date: 2024-05-27 12:42:38
-tags: [Python, 学习笔记]
+updated: 2024-06-20 19:52:31
+tags: [Python, 学习笔记, 新手向]
 categories: 学习笔记
 excerpt: 作者几年前整理的 Python 快速入门教程，适合初学者学习。
 thumbnail: https://www.boardinfinity.com/blog/content/images/2023/05/Class-and-Static-method-in-Python.png

@@ -1,7 +1,7 @@
 ---
 title: '系统安装日常：简单快速安装 Windows 11/10'
 date: 2024-06-22 14:08:24
-tags: ['Windows', '系统安装']
+tags: ['Windows', '系统安装', '新手向']
 categories: 技术教程
 excerpt: 本文简要介绍了如何快速安装 Windows 系统，以及遇到的问题解决方法。
 thumbnail: https://news-cdn.softpedia.com/images/news2/microsoft-releases-new-windows-11-teaser-confirming-leaked-wallpapers-are-real-533302-2.jpg
