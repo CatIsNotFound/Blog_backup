@@ -35,7 +35,7 @@ https://catisnotfound.github.io/rss.xml
 
 目前你可以通过电脑端或手机端下载对应的 RSS 阅读器，然后将本站的 RSS 订阅地址添加到阅读器中即可。
 
-**本文推荐使用 Fluent Reader 作为 RSS 阅读器。**
+**💻 电脑端推荐：Fluent Reader**
 
 ![RSS 阅读器 Fluent Reader](https://hyliu.me/fluent-reader/imgs/light.png)
 
@@ -46,6 +46,15 @@ Windows 平台：{% btn regular::Microsoft Store::https://apps.microsoft.com/det
 Github 链接：{% btn regular::点此下载::https://github.com/yang991178/fluent-reader/releases::fa-brands fa-github %}
 
 这是目前支持 PC 全平台（<i class="fa-brands fa-windows"></i> Windows、<i class="fa-brands fa-apple"></i> MacOS、 <i class="fa-brands fa-linux"></i> Linux）的一款开源软件。
+
+**📱 Android 平台推荐：Feeder**
+
+<!-- ![RSS 阅读器 Feeder](/images/feeder.webp) -->
+<img src="/images/feeder.webp" alt="RSS 阅读器 Feeder" width="200" />
+
+下载链接：{% btn regular::Github 下载::https://github.com/spacecowboy/Feeder/releases::fa-brands fa-github %}  {% btn regular::F-Droid 下载::https://f-droid.org/repository/browse/?fdid=com.nononsenseapps.feeder::fa-brands fa-android %}  {% btn regular::Google Play 下载::https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play::fa-brands fa-google-play %}
+
+这是最适合在安卓手机上运行的 RSS 阅读器。你可以通过 Google Play、F-Droid、Github 下载安装。
 
 ## 如何订阅 RSS？
 
