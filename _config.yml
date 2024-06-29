@@ -109,23 +109,23 @@ deploy:
 
 # Feed
 ## Docs: https://github.com/hexojs/hexo-generator-feed
-feed:
-  type: 
-    - atom
-    - rss2
-  path: 
-    - atom.xml
-    - rss.xml
-  limit: false
-  order_by: "-date"
-  content: 
-  content_limit: 80
-  content_limit_delim: '。'
+# feed:
+#   type: 
+#     - atom
+#     - rss2
+#   path: 
+#     - atom.xml
+#     - rss.xml
+#   limit: false
+#   order_by: "-date"
+#   content: 
+#   content_limit: 80
+#   content_limit_delim: '。'
 
 # Lazy Load
 ## Docs: https://github.com/fengkx/hexo-native-lazy-load
 lazy_load:
-  enable: true
+  enable: false
 
 # Hexo Tag APlayer
 ## Docs: https://github.com/MoePlayer/hexo-tag-aplayer

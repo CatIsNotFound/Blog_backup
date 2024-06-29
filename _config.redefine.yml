@@ -207,9 +207,9 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house # can be empty
-    Archives: 
-        path: /archives 
-        icon: fa-regular fa-archive # can be empty
+    动态: 
+        icon: fa-solid fa-comment-dots
+        path: /myfeed
     Categories:
       icon: fa-regular fa-list
       submenus:
@@ -266,9 +266,9 @@ home:
     announcement: 随时记录，随时创作~ # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      动态: 
-        icon: fa-solid fa-comment-dots
-        path: /myfeed
+      Archives: 
+        path: /archives 
+        icon: fa-regular fa-archive # can be empty
       音乐:
         icon: fa-solid fa-music
         path: /playlist
@@ -351,7 +351,7 @@ articles:
     enable: true # Whether to enable
     default: cc_by_nc_sa # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
-  lazyload: false # Whether to enable lazyload
+  lazyload: true # Whether to enable lazyload
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
@@ -462,7 +462,7 @@ inject:
 plugins:
   # RSS feed. Requires hexo-generator-feed (npm i hexo-generator-feed). See https://github.com/hexojs/hexo-generator-feed
   feed:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
     enable: false # Whether to enable
@@ -500,7 +500,7 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: true
+  enable: false
   # CDN Provider
   provider: npmmirror # npmmirror, zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
