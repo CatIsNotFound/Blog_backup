@@ -3,13 +3,13 @@
 #   title: 
 #   description:
 
-- image: /images/2024/wallpaper/Your_Name_1.jpg
-  title: Your Name
-  description: 你的名字
+- image: https://files.codelife.cc/wallpaper/wallspic/20240426856744.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
+  title: 2024/06/29
+  description: 源于 Wallspic 壁纸
 
-- image: /images/2024/wallpaper/Your_Name_2.jpg
-  title: Your Name
-  description: 你的名字
+- image: https://files.codelife.cc/wallhaven/full/ox/wallhaven-ox19m9.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
+  title: 2024/06/28
+  description: 源于 WallHaven 壁纸
 
 - image: https://files.codelife.cc/wallpaper/wallspic/20240426n1bbf5.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
   title: 2024/06/01

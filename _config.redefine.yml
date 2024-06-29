@@ -113,8 +113,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallpaper/Your_Name_1.jpg # light mode
-    dark: /images/wallpaper/Your_Name_2.jpg # dark mode
+    light: https://files.codelife.cc/wallpaper/wallspic/20240426856744.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # light mode
+    dark: https://files.codelife.cc/wallhaven/full/ox/wallhaven-ox19m9.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # dark mode
   # Home banner title
   title: CatIsNotFound
   # Home banner subtitle
@@ -500,7 +500,7 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: false
+  enable: true
   # CDN Provider
   provider: npmmirror # npmmirror, zstatic, sustech, staticfile, bootcdn, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
