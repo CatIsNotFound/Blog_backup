@@ -11,9 +11,15 @@ toc: true
 
 {% note blue fa-solid fa-info-circle %} 
 
-**阅读提示：** 本文更新于 2024 年 6 月 12 日，阅读仅需 1 分钟。
+**阅读提示：** 本文更新于 2024 年 7 月 1 日，阅读仅需 1 分钟。
 
 {% endnote %}
+
+<!-- {% notel red 'fa-solid fa-exclamation-triangle' '注意' %}
+
+本站点的 RSS 订阅暂时关闭，具体详情，请点击进入 [“动态”](/myfeed) 以查看说明。
+
+{% endnotel %} -->
 
 ## 概述
 
