@@ -126,33 +126,3 @@ feed:
 ## Docs: https://github.com/fengkx/hexo-native-lazy-load
 lazy_load:
   enable: true
-
-# Hexo Tag APlayer
-## Docs: https://github.com/MoePlayer/hexo-tag-aplayer
-# aplayer:
-#   lrcType: 3
-#   storageName: aplayer-setting
-#   customAudioType:
-#     - mp3
-#     - ogg
-#     - wav
-#     - flac
-#   meting: true
-
-# 统计图表，支持发布文章统计、发布日历、Top标签统计、分类统计、分类雷达。
-# see https://www.npmjs.com/package/hexo-butterfly-charts
-charts:
-  enable: true # 是否启用功能
-  postsChart:
-    title: 文章发布统计图（每月统计） # 设置文章发布统计的标题，默认为空
-    interval: 2 # 横坐标间隔
-  tagsChart:
-    title: Top 8 标签统计图 # 设置标签统计的标题，默认为空
-    interval: 1 # 横坐标间隔
-  postsCalendar: 
-    title: 文章每日发布日历 # 设置发布日历的标题，默认为空
-  categoriesChart:
-    title: 分类统计 # 设置分类统计的标题，默认为空
-  categoriesRadar:
-    title: 分类雷达 # 设置分类雷达的标题，默认为空
-  echarts_CDN: # https://lib.baomitu.com/echarts/4.7.0/echarts.min.js
