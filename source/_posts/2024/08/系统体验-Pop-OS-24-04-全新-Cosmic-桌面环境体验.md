@@ -4,6 +4,7 @@ tags:
   - 系统体验
   - Pop_OS!
   - Cosmic
+  - Linux
 categories: 系统体验
 excerpt: 本文主要介绍 Cosmic 桌面环境的安装、使用以及体验。
 thumbnail: /images/2024/0815/cover.jpg
