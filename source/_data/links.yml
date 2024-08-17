@@ -83,11 +83,6 @@
     description: 360 联合十几款国内 AI 助手集合
     avatar: /images/links/chatai/aibot.png
 
-  - name: Kimi.ai
-    link: https://kimi.moonshot.cn/
-    description: 20W字超长记忆，擅长各种专业领域知识
-    avatar: /images/links/chatai/kimi.png
-
   - name: 豆包
     link: https://www.doubao.com/chat/
     description: 擅长创意写作、逻辑推理、知识问答等方向
@@ -105,10 +100,25 @@
     description: 适合内容创作、对比判断类知识问答领域
     avatar: /images/links/chatai/yiyan.png
 
+  - name: Kimi.ai
+    link: https://kimi.moonshot.cn/
+    description: 20W字超长记忆，支持联网搜索，擅长各种专业领域知识
+    avatar: /images/links/chatai/kimi.png
+
+  - name: 讯飞星火
+    link: https://xinghuo.xfyun.cn/desk
+    description: 逻辑推理、翻译能力突出，擅长教育方向
+    avatar: /images/links/chatai/xinghuo.png
+
   - name: 智脑
     link: https://chat.360.cn
     description: 擅长搜索、总结、思维导图，生成速度超快
     avatar: /images/links/chatai/360.png
+
+  - name: 百小应
+    link: https://ying.baichuan-ai.com/chat
+    description: 通用医疗增强大模型，AI医疗向专家
+    avatar: /images/links/chatai/baixiaoying.png
 
   - name: Deepseek
     link: https://chat.deepseek.com/

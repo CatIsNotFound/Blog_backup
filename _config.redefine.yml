@@ -87,6 +87,7 @@ global:
   google_analytics:
     enable: false # Whether to enable Google Analytics
     id:  # Google Analytics Measurement ID
+    
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
     
 
@@ -207,6 +208,7 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house # can be empty
+    
     动态: 
       icon: fa-solid fa-comment-dots
       path: /myfeed

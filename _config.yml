@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: "google852b8b65d2d7cbbb*"
 
 # Writing
 new_post_name: :year/:month/:title.md # File name of new posts
@@ -73,6 +73,7 @@ tag_map:
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
 
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -93,6 +94,8 @@ include:
 exclude:
 ignore:
 
+
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -105,7 +108,7 @@ deploy:
   type: git
   repo: https://github.com/CatIsNotFound/CatIsNotFound.github.io.git
   branch: 'main'
-  # token: ''
+  ignore_hidden: false # 忽略隐藏文件及文件夹(目录)
 
 # Feed
 ## Docs: https://github.com/hexojs/hexo-generator-feed
@@ -126,3 +129,26 @@ feed:
 ## Docs: https://github.com/fengkx/hexo-native-lazy-load
 lazy_load:
   enable: true
+
+# SEO AutoPush
+## Docs: https://github.com/Lete114/Hexo-SEO-AutoPush
+## enable: 开启/关闭 推送
+## cron: 执行时间周期
+## deployBranch: 部署分支
+## count: 每次提交最新的10篇文章，输入0或者不填写则默认为所有文章(建议是最新的10篇文章)
+## date: 更新时间(updated)|创建日期(created)
+hexo_seo_autopush:
+  cron: 0 4 * * *
+  deployBranch:
+  baidu:
+    enable: false
+    date: updated
+    count: 0
+  bing:
+    enable: true
+    date: updated
+    count: 0
+  google:
+    enable: true
+    date: updated
+    count: 0
