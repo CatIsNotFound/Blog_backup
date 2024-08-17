@@ -141,7 +141,7 @@ hexo_seo_autopush:
   cron: 0 4 * * *
   deployBranch:
   baidu:
-    enable: false
+    enable: true
     date: updated
     count: 0
   bing:
