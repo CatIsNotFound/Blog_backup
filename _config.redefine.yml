@@ -266,19 +266,27 @@ home:
     announcement: 欢迎来到我的个人博客。请在任意文章下方的评论区留言哦~
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
+      动态:
+        icon: fa-solid fa-comment-dots
+        path: /myfeed
+      指路:
+        icon: fa-regular fa-location-arrow
+        path: /links
       归档: 
         path: /archives 
         icon: fa-regular fa-archive # can be empty
       标签: 
         path: /tags
         icon: fa-regular fa-tags
+      分类:
+        path: /categories
+        icon: fa-regular fa-folder
       壁纸:
         icon: fa-solid fa-images
         path: /masonry
       RSS:
         icon: fa-solid fa-rss
         path: /feed
-      
       
       # ...... # you can add more
   # Article date format
@@ -290,7 +298,7 @@ home:
   # Article tags visibility
   tags:
     enable: true  # Whether to enable
-    limit: 3  # Max number of tags to display
+    limit: 4  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
