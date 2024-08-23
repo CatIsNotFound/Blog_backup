@@ -392,9 +392,9 @@ comment:
       emoji: [
         'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
         'https://unpkg.com/@waline/emojis@1.2.0/tieba',
-        'https://unpkg.com/@waline/emojis@1.2.0/qq',
-        'https://unpkg.com/@waline/emojis@1.2.0/alus',
         'https://unpkg.com/@waline/emojis@1.2.0/weibo',
+        'https://unpkg.com/@waline/emojis@1.2.0/qq',
+        'https://unpkg.com/@waline/emojis@1.2.0/soul-emoji',
         'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'
       ] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
