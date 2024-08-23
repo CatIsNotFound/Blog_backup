@@ -208,29 +208,22 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house # can be empty
-    
+    博客:
+      icon: fa-solid fa-book
+      submenus:
+        📂 最新文章: /archives
+        📚 所有分类: /categories
+        🔖 所有标签: /tags
     动态: 
       icon: fa-solid fa-comment-dots
       path: /myfeed
-    Categories:
-      icon: fa-regular fa-list
-      submenus:
-        📔 技术教程: /categories/技术教程
-        🖥 系统体验: /categories/系统体验
-        📱 软件安利: /categories/软件安利
-        ⛺ 博客搭建: /categories/博客搭建
-        📖 学习笔记: /categories/学习笔记
-        📚 所有分类: /categories
-    Tags:
-      icon: fa-regular fa-tags
-      path: /tags
     指路:
       icon: fa-regular fa-location-arrow
       path: /links
     About:
       icon: fa-solid fa-user
       submenus:
-        ✏ 关于博客: /2024/06/11/关于我的博客
+        📝 关于博客: /2024/06/11/关于我的博客
         📰 RSS 订阅: /feed
         🐙 Github: https://github.com/CatIsNotFound
         ❓ 知乎: https://www.zhihu.com/people/catisnotfound
@@ -270,7 +263,7 @@ home:
     enable: true # Whether to enable sidebar
     position: right # Sidebar position. left, right
     first_item: info # First item in sidebar. menu, info
-    announcement: 每月不定时更新，欢迎随时访问博客(*^_^*) # Announcement text
+    announcement: 欢迎来到我的个人博客。请在任意文章下方的评论区留言哦~
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
       归档: 

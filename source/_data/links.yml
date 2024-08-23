@@ -20,8 +20,14 @@
 
     - name: 廖雪峰
       link: https://liaoxuefeng.com/?src=redirect
-      description: 廖雪峰的原创精品教程，包含 Python、Java、JavaScript 等编程语言
+      description: 原创精品教程，包含 Python、Java、JS 等编程语言
       avatar: /images/links/coding/liaoxuefeng.svg
+      thumbnail:
+
+    - name: 编程自学之路 (Road 2 Coding)
+      link: https://www.r2coding.com/
+      description: 由 CodeSheep 大佬精心制作，提供了学习路线、靠谱的资源、高效的工具
+      avatar: /images/links/coding/codesheep.avif
       thumbnail:
 
     - name: 面试鸭刷题神器
