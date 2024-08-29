@@ -1,5 +1,5 @@
-**🎉 最近更新**
+新项目 [Shell Toolbox] 已上线，在这里偷偷地发一下 ~U•ェ•*U~
 
-1. 修改了侧边栏的内容，便于快速跳转页面；
-2. 现添加 SEO 引擎搜索机制，可直接通过 Bing、Google 等搜索引擎进行网页搜索；仅需在搜索前缀加上 `site:https://catisnotfound.github.io/ <关键词>` 即可搜索到本站内容；
-3. 针对部分文章进行了微调；
+👉👉 [项目地址在这里](https://github.com/CatIsNotFound/ShellToolbox) 👈👈
+
+能够看到此条动态的你，希望也能用上它~😉
