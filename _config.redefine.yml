@@ -369,7 +369,7 @@ articles:
     # Max number of articles to display mobile
     mobile_limit: 3
     # Placeholder image
-    placeholder: /images/wallhaven-wqery6-light.webp
+    placeholder: 
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end

@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "* Clearing..."
 npx hexo clean
-echo "* Generating..."
+echo "* Deploying..."
 npx hexo g -d
