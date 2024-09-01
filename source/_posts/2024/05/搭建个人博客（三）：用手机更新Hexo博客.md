@@ -4,6 +4,7 @@ tags:
   - 博客搭建
   - 软件安利
   - Git
+  - Github
   - Hexo
   - Android
 categories: 博客搭建
@@ -13,7 +14,6 @@ excerpt: >-
 date: 2024-05-27 10:18:00
 updated: 2024-06-08 21:02:24
 thumbnail: /images/2024/0527/banner.jpg
-sticky: 996
 ---
 
 # 前言

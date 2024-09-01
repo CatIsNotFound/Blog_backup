@@ -5,6 +5,7 @@ updated: 2024-06-08 21:02:38
 categories: '博客搭建'
 tags: 
     - 'Git'
+    - 'Github'
     - '博客搭建'
     - 'Hexo'
 thumbnail: "/images/2024/042301/5.jpg"

@@ -2,7 +2,7 @@
 title: 从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统
 date: 2024-04-26 23:59:00
 updated: 2024-06-20 19:18:37
-tags: ['Linux']
+tags: ['Linux', 'Ubuntu', '桌面环境', 'GNOME']
 categories: '技术教程'
 excerpt: '本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。'
 thumbnail: /images/2024/0426/13.jpg
