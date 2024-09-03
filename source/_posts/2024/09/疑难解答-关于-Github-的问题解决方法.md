@@ -16,7 +16,6 @@ sticky: 999
 
 # 前言
 
-<!-- ![Github](https://askanydifference.com/wp-content/uploads/2023/06/github.jpg) -->
 <img src="https://askanydifference.com/wp-content/uploads/2023/06/github.jpg" alt="Github" width="75%">
 
 Github 是一个很常用的代码托管平台，我们可以利用此平台下载或克隆到优质的代码仓库，但是在某些情况下，我们可能会遇到一些问题，下面是由本人列举的一些问题与解决方法，希望这能有所帮助😉。
@@ -33,9 +32,9 @@ Github 是一个很常用的代码托管平台，我们可以利用此平台下�
 
 ![](/images/2024/0901/1.jpg)
 
-## 1.2 科学上网
+## 1.2 使用代理加速访问
 
-如果有经济条件，科学上网是非常不错的选择。现如今，本人最推荐的是以下两款主流的科学上网软件：
+如果有经济条件，使用代理服务器是非常不错的选择。现如今，本人最推荐的是以下两款主流的代理软件：
 
 **V2rayNG**：一个基于 v2ray 的免费开源软件，支持 Windows、Android、iOS 等平台。
 {% btn center large::V2rayNG 下载::https://github.com/2dust/v2rayNG/releases ::fa-brands fa-github %}
@@ -52,7 +51,7 @@ Github 是一个很常用的代码托管平台，我们可以利用此平台下�
 
 此类问题非常常见，当你在终端下执行 `git clone <URL>` 或者 `git push -u origin main` 时，可能会出现不同程度的报错：
 
-## 443 端口无法连接
+## 2.1 443 端口无法连接
 
 ```
 fatal: unable to access 'https://github.com/XXX/XXX.git/': Failed to connect to github.com port 443 after 21066 ms: Could not connect to server
@@ -94,7 +93,7 @@ git config --global http.proxy 127.0.0.1:10809
 git config --global https.proxy 127.0.0.1:10809
 ```
 
-## Git 中的 Github 邮箱与密码
+## 2.2 Git 中的 Github 邮箱与密码
 
 假如你需要在 Github 中克隆一个私有的项目仓库或推送项目仓库时，往往会出现如下情况：
 
