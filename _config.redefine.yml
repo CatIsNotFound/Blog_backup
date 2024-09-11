@@ -387,6 +387,7 @@ comment:
     # Waline comment system. See https://waline.js.org/
     waline:
       serverUrl: https://waline-1-u8595044.deta.app/ # Waline server URL. e.g. https://example.example.com
+      # serverUrl: https://walinecomment-catisnotfounds-projects.vercel.app/ 
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       reaction: true
       emoji: [
