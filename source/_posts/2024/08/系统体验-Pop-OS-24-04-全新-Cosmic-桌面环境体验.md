@@ -11,7 +11,6 @@ excerpt: 本文主要介绍 Cosmic 桌面环境的安装、使用以及体验。
 thumbnail: /images/2024/0815/cover.jpg
 date: 2024-08-15 16:57:19
 updated: 2024-08-15 16:57:19
-sticky: 998
 ---
 
 
