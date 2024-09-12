@@ -1,7 +1,8 @@
 ---
-title: '[Unsolve] 9月11日'
+title: '[Unsolved] 9月11日'
 tags:
   - 刷题
+  - C/C++
 categories: 刷题TODO
 excerpt: 记录9月11日未解决的题目
 date: 2024-09-11 22:36:03
@@ -11,9 +12,10 @@ mathjax: true
 ---
 
 
-# 【Mc生存】插火把
+# 一、【Mc生存】插火把
 
 {% btn center large::点击这里查看题目来源::https://www.luogu.com.cn/problem/P1789::fas fa-link %}
+{% btn center large::查看题解，密码240912::/2024/09/12/Solved-【MC生存】插火把 ::fas fa-link %}
 
 ## 题目描述
 
@@ -71,9 +73,13 @@ P.S. 火把的照亮范围是：
 
 数据保证，$1 \le n \le 100$，$1 \leq m+k \leq 25$，$1 \leq m \leq 25$，$0 \leq k \leq 5$。
 
-# 赵神牛的游戏
+----
+
+# 二、赵神牛的游戏
 
 {% btn center large::点击这里查看题目来源::https://www.luogu.com.cn/problem/P2006::fas fa-link %}
+
+{% btn center large::访问查看题解 💡::/2024/09/12/Solved-赵神牛的游戏 ::fas fa-link %}
 
 ## 题目描述
 
