@@ -1,5 +1,5 @@
 ---
-title: 搭建个人博客（五）：完整迁移评论数据至 Vercel
+title: 搭建个人博客（五）：完整迁移评论数据至 Vercel（含 Vercel 部署）
 tags:
   - 博客搭建
   - Waline
@@ -8,7 +8,7 @@ excerpt: 要想完整迁移 Waline 评论系统的评论数据，请查看此文
 thumbnail: /images/2024/0602/waline.jpg
 sticky: 999
 date: 2024-09-28 13:21:01
-updated: 2024-09-28 13:21:01
+updated: 2024-09-28 22:22:01
 ---
 
 
@@ -35,7 +35,7 @@ updated: 2024-09-28 13:21:01
 
 ![](/images/2024/0928/2.jpg)
 
-# Step 2: LeanCloud 操作
+# Step 2: LeanCloud 操作（使用 Vercel 部署时必用）
 
 {% notel yellow 'fa-solid fa-lightbulb' '提示' %}
 
@@ -64,22 +64,6 @@ LEAN_MASTER_KEY=<MasterKey>
 之后在部署 Vercel 时，可以一次性导入环境变量。
 {% endnotel %}
 
-3、你需要将之前配置过的环境变量写入至你的环境变量文件 `waline.env` 中。
-
-> 示例：假设你之前部署的评论系统设置了邮箱提醒功能，那么你需要在环境变量文件中添加如下内容：
-> 
-> ```
-> ...
-> AUTHOR_EMAIL=<你的邮箱>
-> SITE_NAME=<你的博客站点名>
-> SITE_URL=<你的博客站点地址>
-> SMTP_SERVICE=
-> SMTP_USER=
-> SMTP_PASS=
-> ```
-> 
-> 如果还需要实现其它方式的评论提醒功能，请参考此网站：https://waline.js.org/guide/features/notification.html
->
 
 # Step 3: Vercel 部署 Waline 评论系统
 
@@ -141,5 +125,33 @@ comment:
 
 3、打开自己的博客网站（本地下执行预览，只需访问 http://localhost:4000 即可），选择任意文章，在文章页的最下方评论区中测试。
 
+
+
 # Step 5: 迁移数据
+
+{% note danger 'fa-solid fa-circle-info' %}
+**注意：**在进行导入操作前，请务必**先评论和选择反应**！
+
+否则**导入时会出现弹窗报错**，大致内容为：
+
+```
+500: Class or object doesn't exists. [404 GET https://kdxvn5cw.api.lncldglobal.com/1.1/classes/Comment]
+```
+
+![](/images/2024/0928/11.jpg)
+{% endnote %}
+
+1、在如上图中选择 [登录] 按钮；
+
+<i class="fa-solid fa-circle-info"></i> **需要注意：请先不要登录之前使用的账号，登录其它任意账号！**具体问题，如下对比图：
+
+![](/images/2024/0928/13.jpg)
+
+2、点击 [管理] -> [导入导出]，点击 [导入] 按钮。弹出窗口后，点击 [确认] 以覆盖评论数据。
+
+![](/images/2024/0928/12.jpg)
+
+3、等待 1~2 分钟，当弹出窗口并显示 `导入完成` 时，表示数据迁移完成。
+
+4、最后刷新博客页面，以查看博客里的评论数据是否原样迁移。
 
