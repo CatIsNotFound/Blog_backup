@@ -86,8 +86,8 @@ global:
   single_page: true
   # Whether to enable Preloader.
   preloader:
-    enable: false
-    custom_message: # Custom message. If empty, the site title will be displayed
+    enable: true
+    custom_message: 'Now Loading...' # Custom message. If empty, the site title will be displayed
   # Whether to enable open graph
   open_graph: true
   # Google Analytics
@@ -187,7 +187,7 @@ home_banner:
 # Docs: https://redefine-docs.ohevan.com/home/navbar
 navbar:
   # Auto hide navbar
-  auto_hide: false
+  auto_hide: true
   # Navbar background color
   color:
     left: "#fffe93" #left side 
@@ -385,8 +385,8 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://waline-1-u8595044.deta.app/ # Waline server URL. e.g. https://example.example.com
-      # serverUrl: https://walinecomment-catisnotfounds-projects.vercel.app/ 
+      # serverUrl: https://waline-1-u8595044.deta.app/ # Waline server URL. e.g. https://example.example.com
+      serverUrl: blog-waline-navy.vercel.app
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       reaction: true
       emoji: [

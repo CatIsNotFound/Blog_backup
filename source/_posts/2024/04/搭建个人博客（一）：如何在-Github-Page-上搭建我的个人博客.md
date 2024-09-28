@@ -10,7 +10,7 @@ tags:
     - 'Hexo'
 thumbnail: "/images/2024/042301/5.jpg"
 excerpt: "在这本篇文章中，可以跟随步骤来快速搭建属于自己的博客网站"
-sticky: 997
+sticky: 998
 ---
 
 ## 概述
