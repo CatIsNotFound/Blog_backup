@@ -121,8 +121,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: https://files.codelife.cc/wallhaven/full/28/wallhaven-2828w6.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # light mode
-    dark: https://files.codelife.cc/wallhaven/full/k7/wallhaven-k7jmg6.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # dark mode
+    light: https://files.codelife.cc/wallhaven/full/r2/wallhaven-r2e391.png?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # light mode
+    dark: https://files.codelife.cc/wallhaven/full/kx/wallhaven-kxj3l1.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp # dark mode
   # Home banner title
   title: CatIsNotFound
   # Home banner subtitle
