@@ -205,9 +205,9 @@ navbar:
     博客:
       icon: fa-solid fa-book
       submenus:
-        📂 最新文章: /archives
-        📚 所有分类: /categories
-        🔖 所有标签: /tags
+        📂 最新博客: /archives
+        📚 所有类别: /categories
+        🔖 寻找兴趣: /tags
     动态: 
       icon: fa-solid fa-comment-dots
       path: /myfeed
