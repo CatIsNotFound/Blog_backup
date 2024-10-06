@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://CatIsNotFound.github.io
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -93,8 +93,6 @@ pagination_dir: page
 include:
 exclude:
 ignore:
-
-
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
