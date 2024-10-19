@@ -5,7 +5,7 @@ updated: 2024-06-20 11:13:44
 tags: ['系统体验', 'Android', '新手向']
 categories: 系统体验
 excerpt: 本文主要介绍了 Android x86 系统的安装、使用、体验等。
-thumbnail: https://imagekit.androidphoria.com/wp-content/uploads/Android-x86-llega-a-9-Pie.jpg
+thumbnail: /images/2024/0620/cover.webp
 ---
 
 # 前言
