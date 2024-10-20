@@ -28,9 +28,9 @@ sudo apt install <软件包> [-y]
 
 在阅读本文教程之前，如果还未安装 Linux 环境，请先在下方按钮中选择任一方式以进行安装：
 
-{% btn center large ::从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统::/2024/04/26/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统 :: fa-solid fa-link %}
+{% btn center large ::从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统::/2024/04/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统 :: fa-solid fa-link %}
 
-{% btn center large ::WSL：一个适用于 Windows 的 Linux 子系统::/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统:: fa-solid fa-link %}
+{% btn center large ::WSL：一个适用于 Windows 的 Linux 子系统::/2024/06/WSL：一个适用于-Windows-的-Linux-子系统:: fa-solid fa-link %}
 
 {% endnotel %}
 
@@ -87,7 +87,7 @@ ls -lah
 
 若需要了解更多命令，请直接查询 Linux Shell 基础命令速查表（非完整版）。
 
-{% btn center large ::Linux Shell 基础命令速查表::/2024/04/25/Linux-Shell-命令速查表:: fa-solid fa-link %}
+{% btn center large ::Linux Shell 基础命令速查表::/2024/04/Linux-Shell-命令速查表:: fa-solid fa-link %}
 
 ## 管理软件包
 
@@ -480,7 +480,7 @@ locate <文件名>
 
 以上仅介绍了一些基本的 Bash 命令行操作，若需要了解更多命令，请直接查询 Linux Shell 基础命令速查表（非完整版）。
 
-{% btn center large ::Linux Shell 基础命令速查表::/2024/04/25/Linux-Shell-命令速查表:: fa-solid fa-link %}
+{% btn center large ::Linux Shell 基础命令速查表::/2024/04/Linux-Shell-命令速查表:: fa-solid fa-link %}
 
 若在学习过程中遇到问题，欢迎在评论区留言。
 
@@ -488,6 +488,6 @@ locate <文件名>
 
 若你需要学习 Bash 脚本，请点击下方按钮：
 
-{% btn center large ::从 0 开始学 Linux - Bash Shell 脚本入门::/2024/06/09/从-0-开始学-Linux-Bash-Shell-脚本入门 :: fa-solid fa-link %}
+{% btn center large ::从 0 开始学 Linux - Bash Shell 脚本入门::/2024/06/从-0-开始学-Linux-Bash-Shell-脚本入门 :: fa-solid fa-link %}
 
 {% endnotel %}

@@ -15,7 +15,7 @@ mathjax: true
 # 一、【Mc生存】插火把
 
 {% btn center large::点击这里查看题目来源::https://www.luogu.com.cn/problem/P1789::fas fa-link %}
-{% btn center large::查看题解，密码240912::/2024/09/12/Solved-【MC生存】插火把 ::fas fa-link %}
+{% btn center large::查看题解::/2024/09/Solved-【MC生存】插火把 ::fas fa-link %}
 
 ## 题目描述
 
@@ -79,7 +79,7 @@ P.S. 火把的照亮范围是：
 
 {% btn center large::点击这里查看题目来源::https://www.luogu.com.cn/problem/P2006::fas fa-link %}
 
-{% btn center large::访问查看题解 💡::/2024/09/12/Solved-赵神牛的游戏 ::fas fa-link %}
+{% btn center large::访问查看题解 💡::/2024/09/Solved-赵神牛的游戏 ::fas fa-link %}
 
 ## 题目描述
 

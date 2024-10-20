@@ -11,7 +11,7 @@ Bash 是一个支持脚本的命令行解释器，你可以利用脚本来自动
 
 本文将在已有的基础上，学习 Bash Shell 脚本的基本语法和使用方法。若你对 Bash Shell 还不熟悉，请先阅读以下文章：
 
-{% btn large center ::从 0 开始学 Linux：Bash Shell 快速入门::/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门::fa-solid fa-link %}
+{% btn large center ::从 0 开始学 Linux：Bash Shell 快速入门::/2024/06/从-0-开始学-Linux-Bash-Shell-快速入门::fa-solid fa-link %}
 
 
 # 脚本文件

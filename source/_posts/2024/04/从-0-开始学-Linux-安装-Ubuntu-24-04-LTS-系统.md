@@ -62,7 +62,7 @@ Mac 用户建议选择 Parallels Desktop。
 
 关于相关的 WSL 教程，请直接点击下方按钮以跳转至此文章。
 
-{% btn center large::WSL：一个适用于 Windows 的 Linux 子系统::/2024/06/06/WSL：一个适用于-Windows-的-Linux-子系统/::fas fa-link %}
+{% btn center large::WSL：一个适用于 Windows 的 Linux 子系统::/2024/06/WSL：一个适用于-Windows-的-Linux-子系统/::fas fa-link %}
 
 ## 实机安装（双系统安装）（⭐⭐⭐）
 
@@ -196,8 +196,8 @@ Mac 用户建议选择 Parallels Desktop。
 
 🎉 你已完成了整个 Linux 的安装，若你对 Linux 系统不是非常熟悉，建议阅读以下文章：
 
-{% btn center regular::从 0 开始学 Linux：熟悉 GNOME 桌面::/2024/05/03/从-0-开始学-Linux-熟悉-GNOME-桌面/::fas fa-link %}
+{% btn center regular::从 0 开始学 Linux：熟悉 GNOME 桌面::/2024/05/从-0-开始学-Linux-熟悉-GNOME-桌面/::fas fa-link %}
 
-{% btn center regular::从 0 开始学 Linux：Bash Shell 快速入门::/2024/06/09/从-0-开始学-Linux-Bash-Shell-快速入门/::fas fa-link %}
+{% btn center regular::从 0 开始学 Linux：Bash Shell 快速入门::/2024/06/从-0-开始学-Linux-Bash-Shell-快速入门/::fas fa-link %}
 
 {% endnotel %}
