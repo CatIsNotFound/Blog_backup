@@ -12,6 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "gitalk": "^1.8.0",
     "hexo": "^7.0.0",
     "hexo-admonition": "^1.1.2",
     "hexo-cli": "^4.3.2",

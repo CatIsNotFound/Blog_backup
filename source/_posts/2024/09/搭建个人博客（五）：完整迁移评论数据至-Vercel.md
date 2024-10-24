@@ -6,7 +6,7 @@ tags:
 categories: 博客搭建
 excerpt: 要想完整迁移 Waline 评论系统的评论数据，请查看此文
 thumbnail: /images/2024/0602/waline.jpg
-sticky: 999
+sticky: 998
 date: 2024-09-28 13:21:01
 updated: 2024-09-28 22:22:01
 ---

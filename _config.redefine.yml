@@ -380,7 +380,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: waline # waline, gitalk, twikoo, giscus
+  system: gitalk # waline, gitalk, twikoo, giscus
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
@@ -401,9 +401,9 @@ comment:
       turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
-      clientID: ae8a7a5e51dbd298048a # GitHub Application Client ID
-      clientSecret: 244faeb6217b839b4eb1e156d95ab9022f84aef2 # GitHub Application Client Secret
-      repo: gitalk # GitHub repository
+      clientID: Ov23liAz7IPtVZaupHqV # GitHub Application Client ID
+      clientSecret: 7504f26bacb42a4399d067304c2ff569e36857ed # GitHub Application Client Secret
+      repo: blog-gitalk # GitHub repository
       owner: CatIsNotFound # GitHub repository owner
       # proxy: # GitHub repository proxy
     # Twikoo comment system. See https://twikoo.js.org/
