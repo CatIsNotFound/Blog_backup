@@ -123,8 +123,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: https://img.picui.cn/free/2024/10/20/67147bd253e12.jpg # light mode
-    dark: https://img.picui.cn/free/2024/10/20/67147bd21eb6d.jpg # dark mode
+    light: https://files.codelife.cc/wallhaven/full/r2/wallhaven-r27qy1.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_95/format,webp # light mode
+    dark: https://files.codelife.cc/wallhaven/full/jx/wallhaven-jxl3qp.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_95/format,webp # dark mode
   # Home banner title
   title: CatIsNotFound
   # Home banner subtitle

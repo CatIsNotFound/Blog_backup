@@ -1,40 +1,6 @@
-💻 **新发布：Eating Snake - 贪吃蛇🐍**
+🌏 **11/17 博客小更新**
 
-项目地址：https://github.com/CatIsNotFound/Eating-Snake
+1️⃣ **更新了 Redefine 主题**：由 2.7.2 升级至 2.7.3. 更新特性[ >> 请点击此链接 << ](https://github.com/EvanNotFound/hexo-theme-redefine/releases/tag/v2.7.3)以查看。
 
-下图为游戏截图：
+2️⃣ **更新了全新的首页壁纸**，之前所有出现过的壁纸可直接在 [>> 🖼 壁纸库 <<](/masonry) 找到。
 
-```
-  H: 11 E: 69/99
- +------------------------------------------------------------+
- |                                                            |
- |                                                            |
- |                                                            |
- |                                                            |
- |                                                            |
- |      oooooooo0                                             |
- |      o                                                     |
- |      oooooooo                                              |
- |             o                                              |
- |             o                                              |
- |             o                                              |
- |             o                                              |
- |             ooooo                                          |
- |                 o                                          |
- |                 o                       ooo                |
- |                 ooooo                   o                  |
- |                     o               ooooo                  |
- |                     o               o                      |
- |                     ooooo           o                      |
- |                         o    oooooooo                      |
- |                         o    o                             |
- |                         oooooo                             |
- |                                                            |
- |                                                            |
- |                                                            |
- |          *                                                 |
- +------------------------------------------------------------+
-
-```
-
-欢迎各位正在学习 C++ 的伙伴来交流，欢迎大家提意见，欢迎大家提建议，欢迎大家提 BUG，欢迎大家提 star，欢迎大家提 issue。🤗
