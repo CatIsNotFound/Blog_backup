@@ -129,7 +129,7 @@ home_banner:
   title: CatIsNotFound
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: ['Loading...'] # subtitle text, array
     hitokoto:  # 一言配置
       enable: true # Whether to enable hitokoto
       show_author: true
