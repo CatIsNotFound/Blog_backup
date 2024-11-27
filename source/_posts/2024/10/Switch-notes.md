@@ -9,7 +9,7 @@ categories: 记录日常
 excerpt: 记录本人使用 Switch 之前与之后的那些事
 date: 2024-10-24 19:42:29
 updated: 2024-10-24 20:20:29
-thumbnail: https://img.picui.cn/free/2024/10/24/671a3a00bb43d.png
+thumbnail: https://imgur.la/images/2024/11/27/tb_image_share_1729772200807.jpg1.png
 sticky: 999
 ---
 
@@ -18,9 +18,10 @@ sticky: 999
 
 2024 年了，任天堂曾发布的 Switch 已有 7 年之久（从 2017 年 1 月 至 2024 年），本人于上个月的 15 号从某鱼上购买了 Switch Lite。是的，这是一台属于自己的掌上游戏机。而且，这是任天堂**早已停产**的限定外观主机（宝可梦剑盾）。见下图：
 
-<img src="https://img.picui.cn/free/2024/10/24/671a3a02d23fa.jpg" alt="IMG_20241023_100743.jpg" width="300" height="400">
+![IMG20241023100818](https://imgur.la/images/2024/11/27/IMG_20241023_1008181.jpg)
 
-<img src="https://img.picui.cn/free/2024/10/24/671a3a01df566.jpg" alt="IMG_20241023_100818.jpg" width="300" height="400">
+![IMG20241023100835](https://imgur.la/images/2024/11/27/IMG_20241023_100835.jpg)
+
 
 是的，这正是我第一次在某鱼平台上淘到的游戏掌机。
 
@@ -60,7 +61,7 @@ sticky: 999
 
 关于这一点，本人主要是**看上了今年早已发售的 Switch Lite 新外观——海拉鲁限定主机**（见下图），于是就有了想把主机卖掉的想法了（而且是急于想从某鱼上卖掉 Switch 的那种想法）。
 
-<img src="https://img.picui.cn/free/2024/10/24/671a39f9b1a94.png" alt="tb_image_share_1729772213106.jpg.png" width="300" height="400">
+![tb](https://imgur.la/images/2024/11/27/tb_image_share_1729772200807.jpg1.png)
 
 对于我看上它的原因，主要还是集中于几点：
 

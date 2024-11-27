@@ -11,7 +11,7 @@ tags:
 categories: 软件安利
 excerpt: 本文主要介绍如何下载并配置网络工具以及如何在 Switch 上流程看油管。
 thumbnail: /images/2024/1121/cover.png
-sticky: 999
+sticky: 998
 ---
 
 # 写在前面
