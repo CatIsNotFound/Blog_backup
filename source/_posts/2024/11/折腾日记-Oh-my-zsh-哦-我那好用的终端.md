@@ -5,8 +5,10 @@ updated: 2024-11-27 11:58:30
 tags: 
     - Linux
     - oh-my-zsh
-    - 折腾日记
+    - Git
+    - Github
     - WSL
+    - 新手向
 categories: 折腾日记
 excerpt: 这是关于 Oh-my-zsh 的折腾日志。
 thumbnail: /images/2024/1127/cover.png
@@ -272,7 +274,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "juanghurtado" "essembeh" "tjkirch" "apple" ) # �
 > - https://gitee.com/minhanghuang/zsh-syntax-highlighting
 
 
-#### （3）添加插件
+#### (3) 添加插件
 
 欲添加插件，可以在 `~/.zshrc` 文件中的 `plugins` 变量来进行添加，具体如下例：
 

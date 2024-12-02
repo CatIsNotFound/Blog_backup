@@ -3,6 +3,14 @@
 #   title: 
 #   description:
 
+- image: https://files.codelife.cc/wallpaper/wallspic/20240314c4g9f8.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
+  title: 2024/12/1
+  description: 基于 Wallspic 壁纸
+
+- image: https://files.codelife.cc/wallpaper/wallspic/20240424jibahh.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_95/format,webp
+  title: 2024/12/2
+  description: 基于 Wallspic 壁纸
+
 - image: https://files.codelife.cc/wallhaven/full/jx/wallhaven-jxl3qp.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_95/format,webp
   title: 2024/11/17
   description: 源于 Wallhaven 壁纸
@@ -11,13 +19,13 @@
   title: 2024/11/17
   description: 源于 Wallhaven 壁纸
 
-- image: https://img.picui.cn/free/2024/10/20/67147bd21eb6d.jpg
-  title: macos ventura dark mode
-  description: Mac OS Ventura 官方壁纸
+# - image: https://img.picui.cn/free/2024/10/20/67147bd21eb6d.jpg
+#   title: macos ventura dark mode
+#   description: Mac OS Ventura 官方壁纸
   
-- image: https://img.picui.cn/free/2024/10/20/67147bd253e12.jpg
-  title: macos ventura light mode
-  description: Mac OS Ventura 官方壁纸
+# - image: https://img.picui.cn/free/2024/10/20/67147bd253e12.jpg
+#   title: macos ventura light mode
+#   description: Mac OS Ventura 官方壁纸
 
 - image: https://files.codelife.cc/wallhaven/full/kx/wallhaven-kxj3l1.jpg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
   title: 2024/09/28
