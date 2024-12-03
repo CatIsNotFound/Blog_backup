@@ -1,11 +1,11 @@
 ---
-title: '[疑难解答] 关于 Github 的问题解决方法'
+title: '[答疑解惑] 关于 Github 的问题解决方法'
 tags:
   - Github
   - Git
-  - 疑难解答
+  - 答疑解惑
   - 新手向
-categories: 疑难解答
+categories: 答疑解惑
 excerpt: Github 相关的问题解决方法都在这里，后续还在继续更新....
 thumbnail: https://askanydifference.com/wp-content/uploads/2023/06/github.jpg
 date: 2024-09-01 12:48:45
