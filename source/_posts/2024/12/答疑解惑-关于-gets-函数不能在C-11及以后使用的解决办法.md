@@ -5,6 +5,7 @@ updated: 2024-12-03 20:16:06
 tags: 
     - C/C++
     - 答疑解惑
+    - 新手向
 categories: 答疑解惑
 excerpt: 关于 gets() 函数不能在 C++ 11 及以后使用的替代方案
 ---
@@ -29,16 +30,8 @@ int main() {
         cout << "Error: Please input again!\nYour name:";
         gets(c_name);
     }
-    cout << "Please input your name again:";
-    gets(s_name);
-    // 当 s_name 长度小于 2 时，要求重新输入
-    while (s_name.length() < 2) {
-        cout << "Error: Please input again!\nYour name:";
-        gets(s_name);
-    }
     // 输出结果
-    cout << "Your name in char: " << c_name << endl;
-    cout << "Your name in str: " << s_name << endl;
+    cout << "Your name: " << c_name << endl;
     return 0;
 }
 ```
@@ -57,12 +50,10 @@ C++ 11 及以后版本中，`gets()` 函数已被废弃，因为其存在安全�
 
 `fgets()` 函数可以正确地检查字符串的长度，避免缓冲区溢出。
 
-针对 `string` 类型的字符串，一般使用 `getline()` 函数来代替。
-
 
 # 函数使用
 
-**(1) `fgets()` 函数**
+**`fgets()` 函数**
 
 其函数定义于 `<cstdio>` 头文件中，其函数原型如下：
 
@@ -76,18 +67,6 @@ char* fgets( char* str, int count, std::FILE* stream );
 - `count`：读取的字符串的最大长度，包括字符串结束符。
 - `stream`：文件流对象。可以是 `stdin`、`stdout`、`stderr`、`FILE*` 类型的指针等。
 
-**(2) `getline()` 函数**
-
-其函数定义于 `<string>` 头文件中，其函数原型如下：(只提其中一种使用方法)
-
-```cpp
-istream& getline( istream& is, string& str );
-```
-
-其中的参数含义如下：
-- `is`：输入流对象。可以是 `cin`、`fstream`、`istream` 类型的指针等。
-- `str`：用于存储读取的字符串。
-
 # 使用示例
 
 根据如上的分析与解决方案，由 [【简述】](#简述) 中所述的代码示例可改写成如下：
@@ -99,23 +78,16 @@ istream& getline( istream& is, string& str );
 using namespace std;
 
 int main() {
-        char c_name[127];
-        string s_name;
-        cout << "Please input your name:";
+    char c_name[127];
+    string s_name;
+    cout << "Please input your name:";
+    fgets(c_name, 127, stdin);
+    while (strlen(c_name) < 2) {
+        cout << "Error: Please input again!\nYour name:";
         fgets(c_name, 127, stdin);
-        while (strlen(c_name) < 4) {
-            cout << "Error: Please input again!\nYour name:";
-            fgets(c_name, 127, stdin);
-        }
-        cout << "Please input your name again:";
-        getline(cin, s_name);
-        while (s_name.length() < 4) {
-            cout << "Error: Please input again!\nYour name:";
-            getline(cin, s_name);
-        }
-        cout << "Your name in C: " << c_name;
-        cout << "Your name in str: " << s_name << endl;
-        return 0;
+    }
+    cout << "Your name in char: " << c_name;
+    return 0;
 }
 ```
 
@@ -123,6 +95,4 @@ int main() {
 
 1. [std::fgets - cppreference.com - C++参考手册](https://cppreference.cn/w/cpp/io/c/fgets)
 1. [gets, gets_s - cppreference.com - C++参考手册](https://cppreference.cn/w/c/io/gets)
-1. [std::getline - cppreference.com](https://zh.cppreference.com/w/cpp/string/basic_string/getline)
 1. [为什么gets函数不能用了？ - ACM与蓝桥杯竞赛指南 - C语言网](https://www.dotcpp.com/course/868)
-1. [C/C++读入多行字符串string_多行string-CSDN博客](https://blog.csdn.net/fx677588/article/details/52710996)
