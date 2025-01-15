@@ -3,7 +3,7 @@ title: '[Solved] 赵神牛的游戏（解题历程）'
 tags:
   - 解题历程
   - 💡解题
-  - C/C++
+  - C_and_Cpp
 categories: 刷题TODO
 excerpt: 源于9月11日题目
 mathjax: true

@@ -1,0 +1,11 @@
+{
+  "trashOption": "none",
+  "newFileLocation": "folder",
+  "userIgnoreFilters": [
+    "node_modules/",
+    "public/",
+    "scaffolds/",
+    "themes/"
+  ],
+  "newFileFolderPath": "source/_posts/"
+}

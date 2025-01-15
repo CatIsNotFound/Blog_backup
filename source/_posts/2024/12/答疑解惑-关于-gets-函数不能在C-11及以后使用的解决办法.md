@@ -3,7 +3,7 @@ title: '[答疑解惑] C++ 中的 gets() 函数替代方案'
 date: 2024-12-03 20:16:06
 updated: 2024-12-03 20:16:06
 tags: 
-    - C/C++
+    - C_and_Cpp
     - 答疑解惑
     - 新手向
 categories: 答疑解惑

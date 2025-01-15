@@ -3,6 +3,14 @@
 #   title: 
 #   description:
 
+- image: https://files.codelife.cc/wallhaven/full/ox/wallhaven-oxeo25.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_95/format,webp
+  title: 2025/01/14
+  description: 基于 Wallhaven 壁纸
+
+- image: https://files.codelife.cc/wallpaper/wallspic/20231018lb54cg.webp?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_95/format,webp
+  title: 2024/12/28
+  description: 基于 Wallspic 壁纸
+
 - image: https://files.codelife.cc/wallpaper/wallspic/20240314c4g9f8.jpeg?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_92/format,webp
   title: 2024/12/1
   description: 基于 Wallspic 壁纸

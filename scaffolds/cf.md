@@ -2,7 +2,7 @@
 title: '[Codeforces ROUND 991 Div.3] 1205'
 tags:
   - 刷题
-  - C/C++
+  - C_and_Cpp
   - Codeforces
 categories: 刷题TODO
 excerpt: Codeforces ROUND 991 Div.3 原文题目及翻译

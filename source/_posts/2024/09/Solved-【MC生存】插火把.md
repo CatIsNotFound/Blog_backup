@@ -2,7 +2,7 @@
 title: '[Solved] 【MC生存】插火把'
 tags:
   - 💡解题
-  - C/C++
+  - C_and_Cpp
 categories: 刷题TODO
 excerpt: 源于9月11日题目
 date: 2024-09-12 17:50:02

@@ -6,6 +6,7 @@ tags: ['软件安利', 'Windows', '新手向']
 categories: '软件安利'
 excerpt: 本篇推荐适用于 Windows 10 及 Windows 11 系统的几款可以从 Microsoft Store 上下载的软件
 thumbnail: https://cdn.windowsreport.com/wp-content/uploads/2021/04/microsoft-store.jpg
+sticky: 997
 ---
 
 # 概述

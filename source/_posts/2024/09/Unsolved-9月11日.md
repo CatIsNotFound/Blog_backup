@@ -2,7 +2,7 @@
 title: '[Unsolved] 9月11日'
 tags:
   - 刷题
-  - C/C++
+  - C_and_Cpp
 categories: 刷题TODO
 excerpt: 记录9月11日未解决的题目
 date: 2024-09-11 22:36:03

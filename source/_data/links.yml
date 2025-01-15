@@ -74,7 +74,7 @@
       
     - name: Codingame
       link: https://www.codingame.com/
-      description: 在游戏中学编程，支持 C/C++, Python, Java, JavaScript 等主流语言
+      description: 在游戏中学编程，支持 C_and_Cpp, Python, Java, JavaScript 等主流语言
       avatar: /images/links/coding/codingame.jpg
       thumbnail: https://img.picui.cn/free/2024/10/20/6714746916489.jpg
 

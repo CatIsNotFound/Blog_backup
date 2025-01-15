@@ -2,7 +2,7 @@
 title: '[Unsolve] 日期'
 tags:
   - 刷题
-  - C/C++
+  - C_and_Cpp
 categories: 刷题TODO
 excerpt: 记录月日未解决的题目
 date: {{ date }}
