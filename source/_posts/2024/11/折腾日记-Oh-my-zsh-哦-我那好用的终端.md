@@ -12,7 +12,7 @@ tags:
 categories: 折腾日记
 excerpt: 这是关于 Oh-my-zsh 的折腾日志。
 thumbnail: /images/2024/1127/cover.png
-sticky: 999
+sticky: 998
 ---
 
 # 写在最前

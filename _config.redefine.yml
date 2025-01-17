@@ -223,7 +223,6 @@ navbar:
       icon: fa-solid fa-user
       submenus:
         📝 关于博客: /2024/06/about_me
-        📰 RSS 订阅: /feed
         🐙 Github: https://github.com/CatIsNotFound
         ❓ 知乎: https://www.zhihu.com/people/catisnotfound
         📺 哔哩哔哩: https://space.bilibili.com/1896645285

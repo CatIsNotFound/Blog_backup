@@ -1,7 +1,7 @@
 ---
 title: 关于我的博客
 date: 2024-06-11 19:58:21
-updated: 2024-07-31 15:26:30
+updated: 2025-01-16 16:02:30
 tags: 关于博客
 categories: 
 excerpt: 关于所有与这个博客网站相关的内容
@@ -34,12 +34,6 @@ thumbnail: https://files.codelife.cc/wallpaper/wallspic/20240426n1bbf5.jpeg?x-os
 见上上一个【为什么要有自己的博客】这一问题中提到，主要会有各种类型的内容，目前本作者没有什么大的方向。
 
 当然，你也可以在这个博客网站、B站、知乎等我所在的任何平台上私信留言想要的内容O(∩_∩)O
-
-# 如何订阅我的 RSS 频道？
-
-你可以通过以下方式订阅我的 RSS 频道，仅需复制其网页链接，然后在你的 RSS 阅读器中添加订阅即可：
-
-{% btn regular ::RSS 订阅::/feed ::fa-solid fa-rss %}
 
 # 如何找到我？
 
