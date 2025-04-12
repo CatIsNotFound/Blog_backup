@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0d99d7b917bd247c",
+        "id": "a451c7b36ebc1174",
         "type": "tabs",
         "children": [
           {
-            "id": "4dbcf9583104be1c",
+            "id": "449c0ea8eb008064",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/2025/01/Jetbrain-CLion-Installation-and-configuration.md",
+                "file": "source/_posts/2025/04/Conan-Easy-2-use.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jetbrain-CLion-Installation-and-configuration"
+              "title": "Conan-Easy-2-use"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -77,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "85a89369b11702bc",
@@ -139,10 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/2025/01/Jetbrain-CLion-Installation-and-configuration.md"
+                "file": "source/_posts/2025/04/Conan-Easy-2-use.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Jetbrain-CLion-Installation-and-configuration 的大纲"
+              "title": "Conan-Easy-2-use 的大纲"
             }
           }
         ],
@@ -150,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 209.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,34 +167,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4dbcf9583104be1c",
+  "active": "449c0ea8eb008064",
   "lastOpenFiles": [
-    "source/images/2025/01/clion_loading.png",
-    "source/images/2025/01/clion_change_mem.png",
-    "source/images/2025/01/Snipaste_2025-01-17_14-44-22.png",
-    "source/images/2025/01/Snipaste_2025-01-17_14-44-01.png",
-    "source/images/2025/01/Snipaste_2025-01-17_14-43-12.png",
-    "source/images/2025/01/clion_change_2_gbk.png",
-    "source/images/2025/01/clion_ss.png",
-    "source/images/2025/01/clion_dialog_gbk.png",
-    "source/images/2025/01/clion_change_gbk.png",
-    "source/images/2025/01/clion_config_encode.png",
-    "source/images/2025/01/clion_click_settings.png",
-    "source/_posts/2025/01/C-language-basic-misc.md",
+    "db.json",
+    "public/fontawesome/v5-font-face.min.css",
+    "public/fontawesome/v4-shims.min.css",
+    "public/fontawesome/v4-font-face.min.css",
+    "public/fontawesome/solid.min.css",
+    "public/fontawesome/svg-with-js.min.css",
+    "public/fontawesome/thin.min.css",
+    "public/fontawesome/sharp-solid.min.css",
+    "public/fontawesome/regular.min.css",
+    "public/fontawesome/fontawesome.min.css",
+    "public/fontawesome/light.min.css",
+    "public/images/2025/04/conan_qt_2.jpg",
+    "public/images/2025/04/conan_vs.jpg",
+    "public/images/2025/04/conan_clion_4.jpg",
+    "public/images/2024/0426/9.jpg",
+    "public/images/2024/0426/8.jpg",
+    "public/images/2024/0426/7.jpg",
+    "public/images/2024/0426/6.jpg",
+    "public/images/2024/0426/5.jpg",
+    "public/images/2024/0426/4.jpg",
+    "public/images/2024/0426/3.jpg",
+    "source/_posts/2024/05/从-0-开始学-Linux-熟悉-GNOME-桌面.md",
+    "images.md",
+    "source/_posts/2025/04/Conan-Easy-2-use.md",
     "source/_posts/2025/01/Jetbrain-CLion-Installation-and-configuration.md",
+    "source/_posts/2025/01/C-language-basic-misc.md",
+    "source/_drafts/C-language-basic-note-string.md",
+    "source/_posts/2025/未命名.md",
     "images/2025/01.md",
     "images/2025/01/clion_.md",
-    "images/2025/01",
-    "images/2025",
-    "images",
-    "source/_drafts/C-language-basic-note-string.md",
-    "db.json",
-    "public/webfonts/fa-duotone-900.ttf",
-    "public/webfonts/fa-thin-100.ttf",
-    "public/webfonts/fa-light-300.ttf",
-    "public/webfonts/fa-regular-400.ttf",
-    "public/webfonts/fa-solid-900.ttf",
-    "public/webfonts/fa-sharp-solid-900.ttf",
     "source/_drafts/网站安利-几个推荐的电脑壁纸分享网站.md",
     "未命名.md",
     "README.md",
