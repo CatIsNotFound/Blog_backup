@@ -8,7 +8,6 @@ tags:
 categories: 年终总结
 excerpt: 这是自 2024 年 4 月以来至至今的年终总结，同时也会记录一些感想及未来一年的目标
 thumbnail: /images/2024/1230/cover.png
-sticky: 998
 ---
 
 # 来自平台的年度总结

@@ -10,6 +10,7 @@ categories:
   - 技术教程
 excerpt: 此文章简单介绍了 Conan 的简单使用方法
 thumbnail: /images/2025/04/conan-logo.png
+sticky: 999
 ---
 # 写在最前
 
@@ -33,7 +34,7 @@ pip3 install conan
 
 {% notel yellow 'fa-solid fa-warning' 'Linux 下需要注意' %}
 
-关于 Linux 系统，即使预装了 Python，但也可能还需要安装 `python3-pip` 软件包才能使用 `pip3` 命令。具体命令如下：
+对于不同的 Linux 发行版，对应的安装命令如下：
 
 **Debian/Ubuntu 系**
 
@@ -54,6 +55,12 @@ sudo dnf install python3-pip -y
 yay -S conan
 ```
 *注意：请确保你的 Arch/Majaro 系已经安装了 `yay` 包管理工具！*
+
+**openSUSE 系**
+```bash
+zypper install python3-pip
+python3-pip install conan
+```
 
 {% endnotel %}
 
@@ -333,6 +340,10 @@ Your port: 8000
 关于安装，请直接在搜索栏中搜索要安装的第三方库，并点击 【Use in Project】 即可。
 ![](/images/2025/04/conan_clion_4.jpg)
 
+{% notel regular 'fa-solid fa-circle-info' '补充内容' %}
+关于 `conan_provider.cmake` 文件，你可以通过从其它项目源目录下复制到自己的项目，也可以通过 [🔗此链接](https://catisnotfound.lanzouq.com/iTVP92tr63ng) 以尝试下载并复制到自己的项目，然后尝试编译运行。
+{% endnotel %}
+
 ### 3. 使用
 
 安装完对应的第三方库， 你还需要在自己的项目里（即：`CMakeLists.txt` 文件）导入第三方库才能使用，具体见上文中的[示例：创建新的 C++ 项目](#创建新的 C++ 项目) 。
@@ -364,3 +375,6 @@ Conan 官方文档说明如下：
 - [Conan Extension for Visual Studio - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=conan-io.conan-vs-extension)
 - [Conan plugin | CLion Documentation](https://www.jetbrains.com/help/clion/conan-plugin.html)
 - [Conan Package Manager | Qt Creator Documentation](https://doc.qt.io/qtcreator/creator-project-conan.html)
+
+其它参考：
+- [How to install Conan package manager on openSUSE Tumbleweed the most correct way? - StackOverflow](https://stackoverflow.com/questions/62997869/how-to-install-conan-package-manager-on-opensuse-tumbleweed-the-most-correct-way)
