@@ -13,7 +13,7 @@ info:
   # Site title
   title: CatIsNotFound
   # Site subtitle
-  subtitle: 自由自在，记录博客  
+  subtitle: 享受编程，享受生活 
   # Author name
   author: CatIsNotFound
   # Site URL
@@ -125,8 +125,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: https://files.codelife.cc/wallhaven/full/5g/wallhaven-5gym13.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp # light mode
-    dark: https://files.codelife.cc/wallhaven/full/47/wallhaven-47pezv.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp # dark mode
+    light: https://files.codelife.cc/wallhaven/full/yx/wallhaven-yxgmll.png?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp # light mode
+    dark: https://files.codelife.cc/wallhaven/full/83/wallhaven-83lq62.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp # dark mode
   # Home banner title
   title: CatIsNotFound
   # Home banner subtitle

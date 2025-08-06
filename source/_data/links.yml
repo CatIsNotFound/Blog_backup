@@ -10,85 +10,72 @@
 #     thumbnail: 预览图（has_thumbnail 为 true 时才需要）
 
 - links_category: 编程学习与刷题网站
-  has_thumbnail: true
+  has_thumbnail: false
   list: 
     - name: 菜鸟教程
       link: https://www.runoob.com/
       description: 初学者学习编程语言的教程，几乎包含所有编程语言
       avatar: /images/links/coding/runoob.svg
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746b4287c.jpg
 
     - name: 廖雪峰
       link: https://liaoxuefeng.com/?src=redirect
       description: 原创精品教程，包含 Python、Java、JS 等编程语言
       avatar: /images/links/coding/liaoxuefeng.svg
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746a2f33e.jpg
 
     - name: 编程自学之路 (Road 2 Coding)
       link: https://www.r2coding.com/
       description: 由 CodeSheep 大佬精心制作，提供了学习路线、靠谱的资源、高效的工具
       avatar: /images/links/coding/codesheep.avif
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746b25925.jpg
 
     - name: 面试鸭刷题神器
       link: https://www.mianshiya.com/
       description: 程序员鱼皮大佬开发的求职面试刷题平台 👍
       avatar: /images/links/coding/mianshiya.avif
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746a44a77.jpg
 
     - name: FreeCodeCamp
       link: https://www.freecodecamp.org/chinese/
       description: 免费的编程课程，包含前后端、Python、数据库等
       avatar: /images/links/coding/freecodecamp.webp
-      thumbnail: https://img.picui.cn/free/2024/10/20/671474691578c.jpg
     
     - name: StackOverflow
       link: https://stackoverflow.com/
       description: 国内外最好的编程问答平台
       avatar: /images/links/coding/stackoverflow.svg
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746b426de.jpg
 
     - name: 洛谷
       link: https://www.luogu.com.cn/
       description: 一个适合初学者学习算法的刷题平台
       avatar: /images/links/coding/luogu.webp
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746a2f228.jpg
 
     - name: LeetCode
       link: https://leetcode.cn/
       description: 程序员面试入职刷题平台
       avatar: /images/links/coding/leetcode.svg
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746a0c925.jpg
 
     - name: 牛客
       link: https://www.nowcoder.com/
       description: 企业面试/笔试模拟真题网站
       avatar: /images/links/coding/nowcoder.svg
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746aed478.jpg
 
     - name: Codewars
       link: https://www.codewars.com/
       description: 在战斗中学习编程，与其他人挑战编程，提升编程能力
       avatar: /images/links/coding/codewars.svg
-      thumbnail: https://img.picui.cn/free/2024/10/20/671474691540c.jpg
       
     - name: Codingame
       link: https://www.codingame.com/
       description: 在游戏中学编程，支持 C_and_Cpp, Python, Java, JavaScript 等主流语言
       avatar: /images/links/coding/codingame.jpg
-      thumbnail: https://img.picui.cn/free/2024/10/20/6714746916489.jpg
 
     - name: CodeGym
       link: https://codegym.cc/zh/
       description: 以有趣的方式学习 Java
       avatar: /images/links/coding/codegym.jpg
-      thumbnail: https://img.picui.cn/free/2024/10/20/67147469e5337.jpg
       
     - name: 开发者搜索
       link: https://kaifa.baidu.com/
       description: 程序员全网搜索工具
       avatar: /images/links/coding/kaifabaidu.svg
-      thumbnail: https://img.picui.cn/free/2024/10/20/671474692b35f.jpg
 
 - links_category: 国产聊天机器人 - ChatGPT 平替
   has_thumbnail: false
@@ -102,13 +89,11 @@
     link: https://www.doubao.com/chat/
     description: 擅长创意写作、逻辑推理、知识问答等方向
     avatar: /images/links/chatai/doubao.png
-    thumbnail: 
 
   - name: 通义千问
     link: https://tongyi.aliyun.com/qianwen/
     description: 以电商、法律垂类的知识库和翻译能力著称
     avatar: /images/links/chatai/qianwen.png
-    thumbnail:
 
   - name: 文心一言
     link: https://yiyan.baidu.com/
@@ -144,5 +129,4 @@
     link: https://chatglm.cn/main/alltoolsdetail
     description: 擅长多模态场景，模型推理训练等
     avatar: /images/links/chatai/qingyan.png
-    thumbnail:
 
