@@ -100,6 +100,20 @@ ignore:
 theme: redefine
 all_minifier: true
 
+# Markdown renderer
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote  # 启用脚注插件
+    - markdown-it-sup
+    - markdown-it-sub
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
