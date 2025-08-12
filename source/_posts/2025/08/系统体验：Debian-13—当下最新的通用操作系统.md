@@ -333,7 +333,11 @@ UEFI 下启动：选择第一项
 - [BDIC File Extension - What is it? How to open a BDIC file?](https://filext.com/file-extension/BDIC)
 
 [^1]: **RISC-V**（英语发音为“risk-five”）是一个基于[精简指令集](https://zh.wikipedia.org/wiki/精简指令集)（RISC）原则的[开源](https://zh.wikipedia.org/wiki/开源标准)[指令集架构](https://zh.wikipedia.org/wiki/指令集架構)（ISA），简易解释为与[开源软件](https://zh.wikipedia.org/wiki/開源軟體)运动相对应的一种“[开源硬件](https://zh.wikipedia.org/wiki/開源硬體)”。[维基百科]
-**riscv64** 架构的硬件目前主要以嵌入式、物联网、边缘计算等场景为主，依托开源特性和灵活性在低成本、低功耗设备中快速普及。 
-**面向返回的编程** （**ROP**） 是一种[计算机安全漏洞利用](https://en.wikipedia.org/wiki/Computer_security_exploit)技术，允许攻击者在存在安全防御的情况下执行代码。原理：攻击者利用程序中现有的代码片段（gadgets），这些片段通常以返回指令（ret）结束。通过操纵程序的控制流，攻击者将这些 gadgets 链接在一起，构造出恶意的指令序列，从而实现任意代码执行。[维基百科]
-COP 是利用涉及函数调用的现有代码序列构建恶意指令序列；JOP 则是利用跳转指令（如条件跳转或无条件跳转）来改变程序执行流程。它们与 ROP 类似，都是通过控制程序的控制流来达到恶意目的。
-BDIC（Binary Dictionary）二进制字典是一种专门用于提高浏览器拼写检查效率的文件格式，由谷歌开发，主要应用于基于 Chromium 开源项目的浏览器。
+
+[^2]: **riscv64** 架构的硬件目前主要以嵌入式、物联网、边缘计算等场景为主，依托开源特性和灵活性在低成本、低功耗设备中快速普及。 
+
+[^3]: **面向返回的编程** （**ROP**） 是一种[计算机安全漏洞利用](https://en.wikipedia.org/wiki/Computer_security_exploit)技术，允许攻击者在存在安全防御的情况下执行代码。原理：攻击者利用程序中现有的代码片段（gadgets），这些片段通常以返回指令（ret）结束。通过操纵程序的控制流，攻击者将这些 gadgets 链接在一起，构造出恶意的指令序列，从而实现任意代码执行。[维基百科]
+
+[^4]: COP 是利用涉及函数调用的现有代码序列构建恶意指令序列；JOP 则是利用跳转指令（如条件跳转或无条件跳转）来改变程序执行流程。它们与 ROP 类似，都是通过控制程序的控制流来达到恶意目的。
+
+[^5]: BDIC（Binary Dictionary）二进制字典是一种专门用于提高浏览器拼写检查效率的文件格式，由谷歌开发，主要应用于基于 Chromium 开源项目的浏览器。
