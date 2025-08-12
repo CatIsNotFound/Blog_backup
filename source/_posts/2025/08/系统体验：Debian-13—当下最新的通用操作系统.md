@@ -1,5 +1,5 @@
 ---
-title: 系统体验：Debian 13 —— 当下最新的通用操作系统
+title: Debian 13（Trixie）全面体验：新特性、安装与升级指南
 tags:
   - 系统体验
   - Linux
@@ -10,13 +10,13 @@ tags:
 categories: 系统体验
 excerpt: >-
   2025 年 8 月 9 日，Debian 13 正式发布，这是目前最新的通用操作系统。本文将介绍 Debian 13
-  的特性、安装步骤、使用方法以及注意事项。
+  的特性、安装步骤以及注意事项。
 thumbnail: /images/2025/08/Debian_13_Server-2025-08-11-21-48-17.png
 date: 2025-08-11 23:48:26
 ---
 
 > 这次体验的 Linux 发行版系统主要以本周末最新发布的 Debian 13 展开。
->
+> 
 > 通过本文的内容，你可以快速从系统的最新特性、安装步骤、简单的桌面体验等方面展开。希望这篇文章能有所帮助！
 
 -------
@@ -51,7 +51,7 @@ Debian 13（代号 Trixie）带来了许多显著的新特性和改进，涵盖�
 
 下表为各个桌面环境的版本对比：
 
-| 桌面环境     | Debian 13 | Debian 12 |
+| 桌面环境         | Debian 13 | Debian 12 |
 | ------------ | --------- | --------- |
 | GNOME        | 48        | 43        |
 | KDE (Plasma) | 6.3.6     | 5.27.5    |
@@ -62,37 +62,37 @@ Debian 13（代号 Trixie）带来了许多显著的新特性和改进，涵盖�
 
 下表为 Debian 12 与 Debian 13 的部分流行软件包对比：
 
-| 软件包                                              | 在 12 （bookworm） 中的版本     | 在 13 （trixie） 中的版本         |
-| --------------------------------------------------- | ------------------------------- | --------------------------------- |
-| Apache                                              | 2.4.62                          | 2.4.64                            |
-| Bash                                                | 5.2.15                          | 5.2.37                            |
-| BIND DNS 服务器                                     | 9.18                            | 9.20                              |
-| Cryptsetup                                          | 2.6                             | 2.7                               |
-| curl/libcurl                                        | 7.88.1                          | 8.14.1                            |
-| Emacs                                               | 28.2                            | 30.1                              |
-| Exim (default email server)                         | 4.96                            | 4.98                              |
-| GCC, the GNU Compiler Collection (default compiler) | 12.2                            | 14.2                              |
-| GIMP                                                | 2.10.34                         | 3.0.4                             |
-| GnuPG                                               | 2.2.40                          | 2.4.7                             |
-| Inkscape                                            | 1.2.2                           | 1.4                               |
-| GNU C 运行库                                        | 2.36                            | 2.41                              |
-| Linux kernel                                        | 6.1 系列                        | 6.12 series                       |
-| LLVM/Clang 工具链                                   | 13.0.1 和 14.0（默认）和 15.0.6 | 19 (default), 17 and 18 available |
-| MariaDB                                             | 10.11                           | 11.8                              |
-| Nginx                                               | 1.22                            | 1.26                              |
-| OpenJDK                                             | 17                              | 21                                |
-| OpenLDAP                                            | 2.5.13                          | 2.6.10                            |
-| OpenSSH                                             | 9.2p1                           | 10.0p1                            |
-| OpenSSL                                             | 3.0                             | 3.5                               |
-| Perl                                                | 5.36                            | 5.40                              |
-| PHP                                                 | 8.2                             | 8.4                               |
-| Postfix                                             | 3.7                             | 3.10                              |
-| PostgreSQL                                          | 15                              | 17                                |
-| Python 3                                            | 3.11                            | 3.13                              |
-| Rustc                                               | 1.63                            | 1.85                              |
-| Samba                                               | 4.17                            | 4.22                              |
-| Systemd                                             | 252                             | 257                               |
-| Vim                                                 | 9.0                             | 9.1                               |
+| 软件包                                                 | 在 12 （bookworm） 中的版本      | 在 13 （trixie） 中的版本                |
+| --------------------------------------------------- | ------------------------- | --------------------------------- |
+| Apache                                              | 2.4.62                    | 2.4.64                            |
+| Bash                                                | 5.2.15                    | 5.2.37                            |
+| BIND DNS 服务器                                        | 9.18                      | 9.20                              |
+| Cryptsetup                                          | 2.6                       | 2.7                               |
+| curl/libcurl                                        | 7.88.1                    | 8.14.1                            |
+| Emacs                                               | 28.2                      | 30.1                              |
+| Exim (default email server)                         | 4.96                      | 4.98                              |
+| GCC, the GNU Compiler Collection (default compiler) | 12.2                      | 14.2                              |
+| GIMP                                                | 2.10.34                   | 3.0.4                             |
+| GnuPG                                               | 2.2.40                    | 2.4.7                             |
+| Inkscape                                            | 1.2.2                     | 1.4                               |
+| GNU C 运行库                                           | 2.36                      | 2.41                              |
+| Linux kernel                                        | 6.1 系列                    | 6.12 series                       |
+| LLVM/Clang 工具链                                      | 13.0.1 和 14.0（默认）和 15.0.6 | 19 (default), 17 and 18 available |
+| MariaDB                                             | 10.11                     | 11.8                              |
+| Nginx                                               | 1.22                      | 1.26                              |
+| OpenJDK                                             | 17                        | 21                                |
+| OpenLDAP                                            | 2.5.13                    | 2.6.10                            |
+| OpenSSH                                             | 9.2p1                     | 10.0p1                            |
+| OpenSSL                                             | 3.0                       | 3.5                               |
+| Perl                                                | 5.36                      | 5.40                              |
+| PHP                                                 | 8.2                       | 8.4                               |
+| Postfix                                             | 3.7                       | 3.10                              |
+| PostgreSQL                                          | 15                        | 17                                |
+| Python 3                                            | 3.11                      | 3.13                              |
+| Rustc                                               | 1.63                      | 1.85                              |
+| Samba                                               | 4.17                      | 4.22                              |
+| Systemd                                             | 252                       | 257                               |
+| Vim                                                 | 9.0                       | 9.1                               |
 
 ## 升级到 Debian 13
 
@@ -175,7 +175,11 @@ BUG_REPORT_URL="https://bugs.debian.org/"
 
 {% notel blue 'fa-solid fa-lightbulb' '提示' %}
 
-关于 VMware 的获取，请直接[点击此链接](https://pan.quark.cn/s/6b30bd693562) (密 `Wxin`) 获取。
+你可以通过本站的下列链接进行获取 VMware 17 版本：
+
+{% btn center::百度网盘下载::https://pan.baidu.com/s/1657rN6s6_bQTyYeLTS-grg?pwd=jd5g::fas fa-link %}
+
+{% btn center::夸克网盘下载::https://pan.quark.cn/s/e8159ecd2736::fas fa-link %}
 
 新建 VMware 部分，请点击参阅文章【新建虚拟机】一节。
 
@@ -237,20 +241,20 @@ UEFI 下启动：选择第一项
 
 分区方案 1：同一分区
 
-| 挂载点      | 大小     | 文件系统 | 说明          |
-| :---------- | :------- | :------- | :------------ |
-| `/boot/efi` | 512 MB   | FAT32    | UEFI 启动分区 |
-| `swap`      | 2 ~ 4 GB | swap     | 交换分区      |
-| `/`         | 剩余空间 | ext4     | 根分区        |
+| 挂载点         | 大小       | 文件系统  | 说明        |
+|:----------- |:-------- |:----- |:--------- |
+| `/boot/efi` | 512 MB   | FAT32 | UEFI 启动分区 |
+| `swap`      | 2 ~ 4 GB | swap  | 交换分区      |
+| `/`         | 剩余空间     | ext4  | 根分区       |
 
 分区方案 2：将 `/home` 单独分区（其中的 `/` 和 `/home` 的大小需自行分配）
 
-| 挂载点      | 大小       | 文件系统 | 说明          |
-| :---------- | :--------- | :------- | :------------ |
-| `/boot/efi` | 512 MB     | FAT32    | UEFI 启动分区 |
-| `swap`      | 2 ~ 4 GB   | swap     | 交换分区      |
-| `/`         | 24 ~ 64 GB | ext4     | 根分区        |
-| `/home`     | 剩余空间   | ext4     | 用户数据      |
+| 挂载点         | 大小         | 文件系统  | 说明        |
+|:----------- |:---------- |:----- |:--------- |
+| `/boot/efi` | 512 MB     | FAT32 | UEFI 启动分区 |
+| `swap`      | 2 ~ 4 GB   | swap  | 交换分区      |
+| `/`         | 24 ~ 64 GB | ext4  | 根分区       |
+| `/home`     | 剩余空间       | ext4  | 用户数据      |
 
 {% endnotel %}
 
@@ -328,9 +332,8 @@ UEFI 下启动：选择第一项
 
 - [BDIC File Extension - What is it? How to open a BDIC file?](https://filext.com/file-extension/BDIC)
 
-
 [^1]: **RISC-V**（英语发音为“risk-five”）是一个基于[精简指令集](https://zh.wikipedia.org/wiki/精简指令集)（RISC）原则的[开源](https://zh.wikipedia.org/wiki/开源标准)[指令集架构](https://zh.wikipedia.org/wiki/指令集架構)（ISA），简易解释为与[开源软件](https://zh.wikipedia.org/wiki/開源軟體)运动相对应的一种“[开源硬件](https://zh.wikipedia.org/wiki/開源硬體)”。[维基百科]
-[^2]: **riscv64** 架构的硬件目前主要以嵌入式、物联网、边缘计算等场景为主，依托开源特性和灵活性在低成本、低功耗设备中快速普及。 
-[^3]: **面向返回的编程** （**ROP**） 是一种[计算机安全漏洞利用](https://en.wikipedia.org/wiki/Computer_security_exploit)技术，允许攻击者在存在安全防御的情况下执行代码。原理：攻击者利用程序中现有的代码片段（gadgets），这些片段通常以返回指令（ret）结束。通过操纵程序的控制流，攻击者将这些 gadgets 链接在一起，构造出恶意的指令序列，从而实现任意代码执行。[维基百科]
-[^4]: COP 是利用涉及函数调用的现有代码序列构建恶意指令序列；JOP 则是利用跳转指令（如条件跳转或无条件跳转）来改变程序执行流程。它们与 ROP 类似，都是通过控制程序的控制流来达到恶意目的。
-[^5]: BDIC（Binary Dictionary）二进制字典是一种专门用于提高浏览器拼写检查效率的文件格式，由谷歌开发，主要应用于基于 Chromium 开源项目的浏览器。
+**riscv64** 架构的硬件目前主要以嵌入式、物联网、边缘计算等场景为主，依托开源特性和灵活性在低成本、低功耗设备中快速普及。 
+**面向返回的编程** （**ROP**） 是一种[计算机安全漏洞利用](https://en.wikipedia.org/wiki/Computer_security_exploit)技术，允许攻击者在存在安全防御的情况下执行代码。原理：攻击者利用程序中现有的代码片段（gadgets），这些片段通常以返回指令（ret）结束。通过操纵程序的控制流，攻击者将这些 gadgets 链接在一起，构造出恶意的指令序列，从而实现任意代码执行。[维基百科]
+COP 是利用涉及函数调用的现有代码序列构建恶意指令序列；JOP 则是利用跳转指令（如条件跳转或无条件跳转）来改变程序执行流程。它们与 ROP 类似，都是通过控制程序的控制流来达到恶意目的。
+BDIC（Binary Dictionary）二进制字典是一种专门用于提高浏览器拼写检查效率的文件格式，由谷歌开发，主要应用于基于 Chromium 开源项目的浏览器。

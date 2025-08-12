@@ -10,7 +10,6 @@ categories:
   - 技术教程
 excerpt: 此教程可帮助新手小白快速搭建编程环境，以及正常运行程序
 thumbnail: /images/2025/01/clion_loading.png
-sticky: 998
 ---
 # 简介
 

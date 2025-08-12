@@ -1,7 +1,7 @@
 ---
 title: 从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统
 date: 2024-04-26 23:59:00
-updated: 2024-06-20 19:18:37
+updated: 2025-08-12 11:27:00
 tags: ['Linux', 'Ubuntu', '桌面环境', 'GNOME']
 categories: '技术教程'
 excerpt: '本篇文章适合刚接触 Linux 的零基础小白，本教程将以零基础小白的视角来简要介绍如何快速安装 Ubuntu 系统。'
@@ -34,14 +34,24 @@ thumbnail: /images/2024/0426/13.jpg
 
 |                             软件                             | 可用的平台          |
 | :----------------------------------------------------------: | ------------------- |
-| <img src="https://www.vmware.com/favicon.ico" style="zoom:75%;" /> [VMWare Workstation](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html) | Windows、Linux      |
+| <img src="https://www.vmware.com/vm-favicon.png" style="zoom:75%;" /> [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) | Windows、Linux      |
 | ![](https://www.virtualbox.org/favicon.ico) [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Windows、Mac、Linux |
-| <img src="https://www.vmware.com/favicon.ico" style="zoom:75%;" /> [VMWare Fusion](https://www.vmware.com/products/fusion/fusion-evaluation.html) | Mac                 |
+| <img src="https://www.vmware.com/vm-favicon.png" style="zoom:75%;" /> [VMWare Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) | Mac                 |
 | <img src="https://www.parallels.com/static/pl/typo3conf/ext/prls_theme/Resources/Public/theme/res/img/favicon/favicon.png" style="zoom: 33%;" /> [Parallels Desktop](https://www.parallels.com/products/desktop/) | Mac                 |
 | ![](https://www.qemu.org/assets/favicons/favicon-32x32.png) [QEMU](https://www.qemu.org/download/) | Windows、Mac、Linux |
 | <img src="https://learn.microsoft.com/favicon.ico" style="zoom:25%;" /> [Hyper-V](https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/about/) | Windows             |
 
 Windows 用户建议选择 VMware Workstation；
+
+{% notel green 'fa-solid fa-lightbulb' '提示' %}
+
+你可以通过本站的下列链接进行获取 VMware 17 版本：
+
+{% btn center::百度网盘下载::https://pan.baidu.com/s/1657rN6s6_bQTyYeLTS-grg?pwd=jd5g::fas fa-link %}
+
+{% btn center::夸克网盘下载::https://pan.quark.cn/s/e8159ecd2736::fas fa-link %}
+
+{% endnotel %}
 
 Linux 用户建议选择 Oracle VM VirtualBox；
 
@@ -90,9 +100,9 @@ Mac 用户建议选择 Parallels Desktop。
 
 ## 适用于安卓设备的软件 —— Termux（⭐⭐）
 
-{% note  fa-circle-exclamation %}
+{% note fa-solid fa-circle-exclamation %}
 
-**注意：**本篇中此方法不会具体展开介绍
+**注意：本篇中此方法不会具体展开介绍！**
 
 {% endnote %}
 

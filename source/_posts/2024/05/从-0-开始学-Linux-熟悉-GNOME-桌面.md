@@ -10,7 +10,9 @@ thumbnail: /images/2024/0426/13.jpg
 
 {% notel blue 'fa-solid fa-book' '前言' %}
 
-在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程：[从 0 开始学 Linux - 安装 Ubuntu 24.04 LTS 系统](../../../04/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统/)。
+在阅读此篇文章前，若你当前还未安装完 Linux 系统，请先阅读并执行此教程。
+
+{% btn center large::从 0 开始学 Linux：安装 Ubuntu 24.04 LTS 系统::/2024/04/从-0-开始学-Linux-安装-Ubuntu-24-04-LTS-系统/::fas fa-link %}
 
 本教程主要针对于从未接触过 GNOME 的小白并将以最为简单的方式（通过图文形式）来快速熟悉 GNOME 桌面。
 
