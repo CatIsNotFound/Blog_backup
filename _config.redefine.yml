@@ -125,8 +125,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: https://files.codelife.cc/wallhaven/full/yx/wallhaven-yxgmll.png?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp # light mode
-    dark: https://files.codelife.cc/wallhaven/full/83/wallhaven-83lq62.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp # dark mode
+    light: https://files.codelife.cc/wallhaven/full/e7/wallhaven-e7j33o.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp
+    dark: https://files.codelife.cc/wallhaven/full/p9/wallhaven-p97l5e.png?x-oss-process=image/resize,limit_0,m_fill,w_1920,h_1080/quality,Q_93/format,webp
   # Home banner title
   title: CatIsNotFound
   # Home banner subtitle
@@ -171,6 +171,7 @@ home_banner:
     # Social links
     links:
       github: https://github.com/CatIsNotFound # Github
+      fa-brands fa-git-alt: https://gitee.com/CatIsNotFound/ # Gitee
       bilibili: https://space.bilibili.com/1896645285?spm_id_from=333.1007.0.0 # 哔哩哔哩
       zhihu:  https://www.zhihu.com/people/catisnotfound # 知乎
       twitter:  # your twitter URL
@@ -223,6 +224,7 @@ navbar:
       submenus:
         📝 关于博客: /2024/06/about_me
         🐙 Github: https://github.com/CatIsNotFound
+        🐙 Gitee: https://gitee.com/CatIsNotFound/
         ❓ 知乎: https://www.zhihu.com/people/catisnotfound
         📺 哔哩哔哩: https://space.bilibili.com/1896645285
     
